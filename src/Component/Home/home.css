@@ -1,0 +1,9 @@
+.carousel-inner{
+    height: 100vh;
+}
+
+.carousel-item, .car-img{
+    height: 100% ;
+    width:  100% ;
+    
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import image1 from '../../assets/logo.png'
 import Alert from './Alert'
 import './navbar.css'
@@ -9,9 +10,9 @@ const Navbar = () => {
     <Alert/>
     <section id="title">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="#" class="navbar-brand">
-          <img class="logo" src={image1} alt="" />
-        </a>
+        <Link to="#" className="navbar-brand">
+          <img className="logo" src={image1} alt="" />
+        </Link>
         <button className='a-c'>
             DONATE
         </button>
@@ -21,19 +22,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="samarpanTitle">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">HOME</a>
+              <Link className="nav-link" to='/'>HOME </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">ABOUT US</a>
+              <Link className="nav-link" to='/about'>ABOUT US </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">GALERY</a>
+              <Link className="nav-link" to='/galery'>GALERY </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">TEAM</a>
+              <Link className="nav-link" to='/team'>TEAM </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">CONTACT US</a>
+              <Link className="nav-link" to='/contact-us'>CONTACT US </Link>
             </li>
           </ul>
         </div>

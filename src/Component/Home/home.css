@@ -1,9 +1,66 @@
-.carousel-inner{
+.carousel-inner {
     height: 100vh;
 }
+@media (max-width: 992px) {
+    .carousel-inner {
+        height: 50vh;
+    }
+}
 
-.carousel-item, .car-img{
-    height: 100% ;
-    width:  100% ;
-    
+.carousel-item,.car-img {
+    height: 100%;
+    width: 100%;
+
+}
+.carousel-item {
+    background-size: cover;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.banner_top {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    top: -65vh;
+    margin-left: 12vw;
+}
+@media (max-width: 992px) {
+    .banner_top {
+        font-size: 7vw;
+        top: -30vh;
+        margin-left: 15vw;
+        
+    }
+}
+
+.vision_btn_banner {
+    border: 1px solid white;
+    background: rgb(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+        width: 24vw;
+        margin-top: 2vw;
+}
+@media (max-width: 992px) {
+        .vision_btn_banner {
+                    padding: 10px;
+        }
+}
+
+.vision_btn_banner:hover {
+    border: 1px solid grey;
+    background: grey;
+    transform: scaleX(1.09);
+}
+
+@media (max-width: 992px) {
+    .vision_btn_banner:active {
+        transform: scaleX(1.09);
+    }
 }

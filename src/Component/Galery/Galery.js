@@ -2,7 +2,7 @@ import React from 'react'
 
 const Galery = () => {
   return (
-    <div>
+    <div className='container'>
         Galery is comming soon ..
         </div>
   )

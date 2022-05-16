@@ -9,7 +9,7 @@ const Home = () => {
 
             <div className='banner_top'>
                 <span style={{ fontSize: "8vw", fontFamily: 'Permanent Marker, cursive' }}>SAMARPAN</span>
-                <span style={{ fontSize: "2rem", fontFamily: 'Dancing Script, cursive' }}>EK SOCH EK BISWAS</span>
+                <span style={{ fontSize: "2rem", fontFamily: 'Dancing Script, cursive' }}>EK SOCH, EK VISWAAS</span>
                 <button className='vision_btn_banner'>OUR VISION</button>
             </div>
             

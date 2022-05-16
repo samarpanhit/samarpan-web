@@ -1,0 +1,13 @@
+.modal-content{
+    height: 70vh;
+    width: 90vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 992px) {
+    .modal-content {
+            height: 30vh;
+        }
+}

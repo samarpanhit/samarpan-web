@@ -8,10 +8,13 @@ import About from './Component/AboutUs/About';
 import Galery from './Component/Galery/Galery';
 import Team from './Component/Team/Team';
 import Contact from './Component//ContactUs/Contact';
+import EventModal from './Component/Event/EventModal';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
     <>
+    <EventModal/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,6 +23,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/contact-us" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 }

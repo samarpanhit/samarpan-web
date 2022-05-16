@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+        });
+    };
     return (
         <footer>
             < div className="first" >
@@ -26,19 +33,19 @@ const Footer = () => {
                 <div class="second-item">
                     <h1>INFO</h1>
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><Link to="/" onClick={scrollToTop}>Home</Link></li>
                     </ul>
                     <ul>
-                        <li><a href="/about">About us</a></li>
+                        <li><Link to="/team" onClick={scrollToTop}>About us</Link></li>
                     </ul>
                     <ul>
-                        <li><a href="/galery">Gallery</a></li>
+                        <li><Link to="/galery" onClick={scrollToTop}>Gallery</Link></li>
                     </ul>
                     <ul>
-                        <li><a href="/team">Team</a></li>
+                        <li><Link to="/team" onClick={scrollToTop}>Team</Link></li>
                     </ul>
                     <ul>
-                        <li><a href="/contact-us">Contact us</a></li>
+                        <li><Link to="/contact-us" onClick={scrollToTop}>Contact us</Link></li>
                     </ul>
                 </div>
 

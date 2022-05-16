@@ -41,8 +41,8 @@ const Home = () => {
                     <p>in university</p>
                 </div>
             </div>
-            <div class="second">
-                <div class="second-item">
+            <div className="second">
+                <div className="second-item">
                     <h1>INFO</h1>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -61,29 +61,29 @@ const Home = () => {
                     </ul>
                 </div>
 
-                <div class="second-item">
+                <div className="second-item">
                     <h1>Contact Us</h1>
-                    <p><i class="fa-solid fa-phone"></i> 1234567890</p>
-                    <p><i class="fa-solid fa-envelope"></i> info@teachachild.org</p>
+                    <p><i className="fa-solid fa-phone"></i> 1234567890</p>
+                    <p><i className="fa-solid fa-envelope"></i> info@teachachild.org</p>
                 </div>
 
-                <div class="second-item">
+                <div className="second-item">
                     <h1>Reach Us</h1>
-                    <div class="reachu-us">
+                    <div className="reachu-us">
                         <a href="#">
-                            <i class="fa-brands fa-facebook-f fa-2x"></i>
+                            <i className="fa-brands fa-facebook-f fa-2x"></i>
                         </a>
                         <a href="#">
-                            <i class="fa-brands fa-instagram fa-2x"></i>
+                            <i className="fa-brands fa-instagram fa-2x"></i>
                         </a>
                         <a href="#">
-                            <i class="fa-brands fa-twitter fa-2x"></i>
+                            <i className="fa-brands fa-twitter fa-2x"></i>
                         </a>
                         <a href="#">
-                            <i class="fa-brands fa-youtube fa-2x"></i>
+                            <i className="fa-brands fa-youtube fa-2x"></i>
                         </a>
                     </div>
-                    <p class="copyright">Copyright &copy; 2022 by Samarpan</p>
+                    <p className="copyright">Copyright &copy; 2022 by Samarpan</p>
                 </div>
             </div>
         </div>

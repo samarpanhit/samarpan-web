@@ -1,0 +1,25 @@
+.contact-head{
+    text-align: center;
+    margin: 40px;
+    
+}
+.contact-box{
+    text-align: center;
+    padding: 5%;
+}
+.contact-box h3{
+    font-family: 'Montserrat,sans-serif';
+    font-weight: bolder;
+    
+}
+.contact-box p{
+    font-size: 1.2rem;
+    color: grey;
+}
+.contact-icon{
+    color: rgb(74, 74, 95);
+    margin-bottom: 1rem;
+}
+.contact-icon:hover{
+    color: red;
+}

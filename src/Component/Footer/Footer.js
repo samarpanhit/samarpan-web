@@ -51,7 +51,8 @@ const Footer = () => {
 
                 <div class="second-item">
                     <h1>Contact Us</h1>
-                    <p><i class="fa-solid fa-phone"></i><a href='telk:2441139'>1234567890</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href='tel:+919002030141'> Mrinmoy: +919002030141</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href='tel:+918004333702'> Ashutosh: +918004333702</a></p>
                     <p><i class="fa-solid fa-envelope"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
                 </div>
 

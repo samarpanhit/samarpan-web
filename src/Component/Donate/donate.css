@@ -1,0 +1,87 @@
+.donate {
+    background: url(../../assets/donate.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+@media (max-width: 992px) {
+    .donate {
+        background-size: cover;
+        height: 50vh;
+    }
+}
+
+.donate-box {
+    width: 40vw;
+    height: 60vh;
+    position: relative;
+    top: 12vh;
+    left: 5vw;
+}
+
+
+.DON-BTN {
+    position: relative;
+    top: 50vh;
+    left: 70vw;
+    height: 10vh;
+    font-weight: 600;
+    border: 4px solid WHITE;
+    border-radius: 10px;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .DON-BTN {
+        top: 21vh;
+        height: 5vh;
+        left: 41vh vh;
+        font-size: x-large;
+    }
+}
+
+.donate-banner {
+    position: relative;
+    bottom: -59vh;
+    left: 5vw;
+    color: white;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Dancing Script, cursive;
+}
+
+@media (max-width: 992px) {
+    .donate-banner {
+        top: 25vh;
+        font-size: 3.4vw;
+    }
+}
+
+.DON-BTN:hover {
+    background-color: grey;
+    color: white;
+    font-weight: 700;
+    border-color: grey;
+}
+
+.qrholder {
+    height: 40vh;
+    width: 100%;
+    background: url(../../assets/QR.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.upiid {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15vw;
+    padding-top: 5vh;
+    height: 20vh;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+}

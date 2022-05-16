@@ -1,14 +1,19 @@
-import React, { useRef } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useRef } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import image1 from '../../assets/logo.png'
 import Alert from './Alert'
 import './navbar.css'
 
 const Navbar = () => {
+  let location = useLocation();
   const toogle = useRef(null)
   function handleClick(){
     toogle.current.click()
   }
+  useEffect(() => {
+    console.log(location.pathname);
+  }, [location])
+  
   return (
     <>
       <Alert />
@@ -17,9 +22,8 @@ const Navbar = () => {
           <Link to="#" className="navbar-brand">
             <img className="logo" src={image1} alt="" />
           </Link>
-          <button className='a-c'>
-            DONATE
-          </button>
+          {(location.pathname)!=='/donate' &&
+          <Link to='/donate' style={{ textDecoration: "none" }}><button className='a-c'>DONATE</button></Link>}
           <button id='hambarger' ref={toogle} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#samarpanTitle" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -42,9 +46,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className='b-c'>
-            DONATE
-          </button>
+          {(location.pathname) !== '/donate' &&
+          <Link to='/donate' style={{textDecoration: "none"}}><button className='b-c'>DONATE</button></Link>}
         </nav>
       </section>
     </>

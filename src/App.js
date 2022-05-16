@@ -10,6 +10,7 @@ import Team from './Component/Team/Team';
 import Contact from './Component//ContactUs/Contact';
 import EventModal from './Component/Event/EventModal';
 import Footer from './Component/Footer/Footer';
+import Donate from './Component/Donate/Donate';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/galery" element={<Galery />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/donate" element={<Donate />} />
       </Routes>
       <Footer />
     </>

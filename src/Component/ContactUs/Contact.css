@@ -1,25 +1,44 @@
-.contact-head{
+.contact-head {
     text-align: center;
     margin: 40px;
-    
+    font-weight: bolder;
+    font-size: 42px;
 }
-.contact-box{
+
+.contact-box {
     text-align: center;
     padding: 5%;
 }
-.contact-box h3{
+
+.contact-box h3 {
     font-family: 'Montserrat,sans-serif';
     font-weight: bolder;
-    
 }
-.contact-box p{
-    font-size: 1.2rem;
+
+.contact-box p {
+    font-size: 19.2px;
     color: grey;
 }
-.contact-icon{
+
+.contact-icon {
     color: rgb(74, 74, 95);
     margin-bottom: 1rem;
 }
-.contact-icon:hover{
+
+.contact-icon:hover {
     color: red;
+}
+
+@media (max-width:992px) {
+    .contact-box h3 {
+        font-size: 7vw;
+    }
+
+    .contact-box p {
+        font-size: 5vw;
+    }
+
+    .contact-head {
+        font-size: 10vw;
+    }
 }

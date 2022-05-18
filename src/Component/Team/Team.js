@@ -5,9 +5,6 @@ const Team = () => {
         <div className='container'>
 <main>
     <section class="slicer media">
-        <h2 class="heading-primary">
-            Home / Executive Board
-        </h2>
     <div></div><div></div></section>
     <section>
         <div>

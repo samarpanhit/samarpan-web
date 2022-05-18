@@ -62,7 +62,7 @@ const Footer = () => {
                         <span ><a href='https://www.facebook.com/samarpanathith' target='_blank'>
                             <i class="fa-brands fa-facebook-f fa-2x"/>
                         </a></span>
-                        <span style={{ marginLeft: "25px" }}><a href='https://www.instagram.com/samarpan_hit/'>
+                        <span style={{ marginLeft: "25px" }}><a href='https://www.instagram.com/samarpan_hit/' target='_blank'>
                             <i class="fa-brands fa-instagram fa-2x" target='_blank'></i>
                         </a></span>
                         

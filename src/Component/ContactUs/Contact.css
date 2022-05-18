@@ -18,6 +18,10 @@
 .contact-box p {
     font-size: 19.2px;
     color: grey;
+    text-decoration: none;
+}
+.contact-box a{
+    text-decoration: none;
 }
 
 .contact-icon {
@@ -29,13 +33,40 @@
     color: red;
 }
 
-@media (max-width:992px) {
+.fa-customise{
+    font-size: 10vh;
+}
+
+@media (max-device-width:992px) {
+    .fa-customise {
+            font-size: 17vh;
+        }
+}
+@media (max-device-width:992px) {
+    .fa-customise {
+            font-size: 15vh;
+        }
+}
+@media (max-device-width:992px) {
     .contact-box h3 {
         font-size: 7vw;
     }
 
     .contact-box p {
         font-size: 5vw;
+    }
+
+    .contact-head {
+        font-size: 10vw;
+    }
+}
+@media (max-device-width:768px) {
+    .contact-box h3 {
+        font-size: 5vw;
+    }
+
+    .contact-box p {
+        font-size: 4vw;
     }
 
     .contact-head {

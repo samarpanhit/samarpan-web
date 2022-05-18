@@ -99,6 +99,7 @@ footer {
     justify-content: space-around;
     height: 20%;
     padding: 2vw;
+    margin-top: 30px;
     align-items: center;
 }
 
@@ -229,3 +230,38 @@ footer {
 .copyright {
     margin-top: 25px;
 }
+
+/* mission */
+
+.mission-slide{
+    height: 505px;
+    padding: 0%;
+}
+.mission{
+    height: 505px;
+    background-color: #2121bd;
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+    
+}
+.mission h1{
+    font-size: 7vh;
+    margin-bottom: 25px;
+}
+.mission button{
+    height: 50px;
+    width: 160px;
+    margin-top: 25px;
+    background-color: #2121bd;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1px 5px 10px black;
+}
+
+.mission button:hover{
+    box-shadow: 0px 0px;
+    transform: translateY(5px);
+}
+

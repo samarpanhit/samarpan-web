@@ -39,12 +39,12 @@
 
 @media (max-device-width:992px) {
     .fa-customise {
-            font-size: 17vh;
+            font-size: 15vh;
         }
 }
-@media (max-device-width:992px) {
+@media (max-device-width:768px) {
     .fa-customise {
-            font-size: 15vh;
+            font-size: 10vh;
         }
 }
 @media (max-device-width:992px) {

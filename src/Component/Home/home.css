@@ -306,7 +306,85 @@ footer {
     transform: translateY(5px);
 }
 
+
 /* our events */
 .ourevents{
-    height: 160vh;
+    height: 130vh;
+    text-align: center;
+}
+.ourevents h1{
+    margin: 30px 0 30px 0 ;
+    font-size:50px ;
+    font-weight: bold;
+}
+.event-card{
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 5px 10px black;
+}
+
+.upper{
+    height: 300px;
+    background-size: cover;
+}
+.lower{
+    height: 300px;
+}
+.lower h3{
+    margin: 30px 0 30px 0;
+    size: 25px;
+}
+.event-date{
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+}
+.event-button{
+    margin: 50px;
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    box-shadow: 1px 5px 10px black;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.event-button:hover{
+    font-weight: bold;
+    box-shadow: 0 0;
+    transform: translateY(5px);
+    background-color: rgb(147, 3, 3);
+}
+@media (max-device-width:768px){
+    .ourevents h1{
+        margin: 60px 0 60px 0 ;
+        font-size:80px ;
+    }
+    .event-card{
+        height: 40%;
+        width: 80%;
+    }
+    .upper{
+        height: 40%;
+    }
+    .lower h3{
+        margin: 50px 0 50px 0;
+        font-size: 35px;
+    }
+    .event-date{
+        font-size: 30px;
+    }
+    .event-discrpt{
+        margin: 20px;
+        font-size: 25px;
+    }
+    .event-button{
+        width: 200px;
+        height: 80px;
+        font-size: 25px;
+    }
 }

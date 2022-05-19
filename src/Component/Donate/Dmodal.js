@@ -1,7 +1,11 @@
 import React from 'react'
 import './donate.css'
+import {saveAs} from 'file-saver'
 
 const Dmodal = () => {
+    function handleclick() {
+            saveAs('image_url', 'image.jpg') // Put your image url here.
+    }
     return (
         <div>
             <span className='donate-banner'>Even a little is enough for happiness.</span>
@@ -20,7 +24,7 @@ const Dmodal = () => {
                         <div class="modal-header border-bottom-0">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                            <div className='qrholder'></div>
+                            <div className='qrholder' download onClick={handleclick}></div>
                             <div className='upiid'>
                                 123456789@ibl
                                 

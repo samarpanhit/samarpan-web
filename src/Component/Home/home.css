@@ -34,23 +34,23 @@
 .banner_top {
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     color: white;
-    top: -65vh;
+    top: 65vh;
     margin-left: 12vw;
 }
 
 @media (max-device-width: 992px) {
     .banner_top {
         font-size: 7vw;
-        top: -65vh;
+        top: 65vh;
         margin-left: 15vw;
     }
 }
 
 @media (max-device-width: 425px) {
     .banner_top {
-        top: -31vh;
+        top: 31vh;
     }
 }
 
@@ -231,37 +231,82 @@ footer {
     margin-top: 25px;
 }
 
-/* mission */
 
-.mission-slide{
-    height: 505px;
-    padding: 0%;
+
+
+/* mission */
+.mission-carousel{
+    height: 80vh;
 }
-.mission{
-    height: 505px;
-    background-color: #2121bd;
+@media (max-device-width: 992px) {
+    .mission-carousel {
+            display: none;
+        }
+}
+.carousel-inner-mission{
+    height: 80vh;
+}
+
+.mission-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* background-color: #2121bd; */
     text-align: center;
-    padding-top: 170px;
     color: white;
-    
+    font-size: 1rem;
 }
-.mission h1{
-    font-size: 7vh;
+@media (max-device-width: 992px) {
+    .mission-text {
+        font-size: 2rem;
+        height: 100vh;
+    }
+}
+@media (max-device-width: 425px) {
+    .mission-text {
+            justify-content: space-evenly;
+    }
+}
+
+.mission-text h1 {
+    font-size: 5vw;
     margin-bottom: 25px;
 }
-.mission button{
-    height: 50px;
-    width: 160px;
+@media (max-device-width: 425px) {
+    .mission-text h1 {
+        font-size: 13vw;
+    }
+}
+
+.mission-button {
+    height: 12vh;
+    width: 20vw;
     margin-top: 25px;
-    background-color: #2121bd;
+    /* background-color: #2121bd; */
     border: 2px solid white;
     border-radius: 10px;
     color: white;
     box-shadow: 1px 5px 10px black;
 }
+@media (max-device-width: 768px) {
+    .mission-button {
+        width: 30vw;
+    }
+}
+@media (max-device-width: 425px) {
+    .mission-button {
+        width: 60vw;
+    }
+}
 
-.mission button:hover{
+.mission-button:hover {
     box-shadow: 0px 0px;
     transform: translateY(5px);
 }
 
+/* our events */
+.ourevents{
+    height: 160vh;
+}

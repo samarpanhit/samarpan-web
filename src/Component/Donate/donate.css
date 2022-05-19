@@ -23,14 +23,14 @@
 
 
 .DON-BTN {
-    position: relative;
-    top: 50vh;
-    left: 70vw;
-    height: 10vh;
-    font-weight: 600;
-    border: 4px solid WHITE;
-    border-radius: 10px;
-    color: white;
+    position: absolute;
+        top: 51vh;
+        left: 43vw;
+        height: 10vh;
+        font-weight: 600;
+        border: 4px solid WHITE;
+        border-radius: 10px;
+        color: white;
 }
 
 @media (max-width: 992px) {
@@ -43,9 +43,10 @@
 }
 
 .donate-banner {
-    position: relative;
-    bottom: -59vh;
-    left: 5vw;
+    position: absolute;
+    bottom: 59vh;
+    top: 74vh;
+    left: 25vw;
     color: white;
     font-size: 3vw;
     font-weight: 700;

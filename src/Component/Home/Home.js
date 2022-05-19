@@ -4,6 +4,10 @@ import ImageSlider from './ImageSlider'
 import slideimg1 from '../../assets/slider/1.jpg'
 import slideimg2 from '../../assets/slider/2.jpg'
 import slideimg3 from '../../assets/slider/3.jpg'
+import Mission from './Mission/Mission'
+import Vision from './Vision/Vision'
+import Ourevents from './Ourevents'
+
 const Home = () => {
     return (
         <div>
@@ -14,39 +18,16 @@ const Home = () => {
                 <span style={{ fontSize: "2rem", fontFamily: 'Dancing Script, cursive' }}>EK SOCH, EK VISWAAS</span>
                 <button className='vision_btn_banner'>OUR VISION</button>
             </div>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-lg-6 mission-slide">
-                        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img src={slideimg1} className="d-block w-100" alt="..." />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src={slideimg2} className="d-block w-100" alt="..." />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src={slideimg3} className="d-block w-100" alt="..." />
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 mission">
-                        <h1>OUR MISSION</h1>
-                        <p>Samarpan ensures that every child is given the right to learn and prosper</p>
-                        <button type="button" className="mission-button" target="#">READ MORE</button>
-                    </div>
-                </div>
+
+            <div style={{height:"80vh", width:'100vw'}}>
+                <h1>What is Lorem Ipsum?</h1>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
 
+            <Mission bgcolor="#882601" />
+            <Vision bgcolor="#062f4f" />
+
+            <Ourevents/>
         </div>
     )
 }

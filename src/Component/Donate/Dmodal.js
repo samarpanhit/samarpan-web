@@ -1,6 +1,6 @@
 import React from 'react'
 import './donate.css'
-import {saveAs} from 'file-saver'
+import saveAs from 'file-saver'
 
 const Dmodal = () => {
     function handleclick() {

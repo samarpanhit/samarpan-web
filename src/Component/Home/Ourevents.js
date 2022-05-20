@@ -3,7 +3,7 @@ import img1 from '../../assets/slider/1.jpg'
 const Ourevents = () => {
   return (
     <div className='ourevents'>
-      <h1>OUR MISSION</h1>
+      <h1>NEWS & UPCOMING EVENTS</h1>
       <div className='event-card'>
         <div className='upper' style={{ backgroundImage: "url(" + img1 + ")" }}>
         </div>

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Asutosh Tiwari",
+        "role": "HEAD",
+        "img": "../../assets/slider/1.jpg"
+    },
+    {
+        "name": "Mrinmoy Sarkar",
+        "role": "JOINT HEAD",
+        "img": "../../assets/slider/2.jpg"
+    },
+    {
+        "name": "Pankaj Kumar",
+        "role": "VOLUNTEERING LEAD",
+        "img": "../../assets/slider/2.jpg"
+    },
+    {
+        "name": "Ankita Biswas",
+        "role": "MENTORING LEAD",
+        "img": "../../assets/slider/2.jpg"
+    },
+    {
+        "name": "Jayeeta Gorai",
+        "role": "CREATIVE & CULTURAL LEAD",
+        "img": "../../assets/slider/2.jpg"
+    },
+    {
+        "name": "Shubham Anand",
+        "role": "Social Media & Promotion Lead",
+        "img": "../../assets/slider/2.jpg"
+    }
+]

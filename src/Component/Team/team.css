@@ -1,0 +1,43 @@
+.team-container {
+    padding: 30px 0 30px 30px;
+    background: rgb(239, 239, 245);
+    
+}
+
+.team-content{
+display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+    padding: 7px;
+    margin-right: 54px;
+    margin-bottom: 20px;
+}
+.team-card:last-child {
+    margin-right: 0px;
+}
+
+.photo-holder {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.team-role {
+    color: grey;
+    font-weight: 600;
+}
+.team-name {
+        font-size: 1.8vw;
+            font-weight: 600;
+}

@@ -1,8 +1,22 @@
 import React from 'react'
+import Card from './Card'
+import './team.css'
+import core_member from '../../Database/Team/Core_member.json'
 
 const Team = () => {
     return (
-        <div className='container'>
+        <div className='team-container'>
+            <h1 style={{textAlign: "center"}}>TEAM</h1>
+            <div className='team-content'>
+                {core_member.map((member, i) => <Card name={member.name} role={member.role} img={member.img}/>)}
+                       
+            </div>
+        </div>
+    )
+}
+export default Team
+
+{/* 
 <main>
     <section className="slicer media">
     <div></div><div></div></section>
@@ -54,9 +68,4 @@ const Team = () => {
         
 
     </section>
-</main>
-        </div>
-    )
-}
-
-export default Team
+</main> */}

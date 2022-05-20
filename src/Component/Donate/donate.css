@@ -6,7 +6,7 @@
     width: 100vw;
 }
 
-@media (max-width: 992px) {
+@media (max-device-width: 992px) {
     .donate {
         background-size: cover;
         height: 50vh;
@@ -32,13 +32,18 @@
         border-radius: 10px;
         color: white;
 }
-
-@media (max-width: 992px) {
+@media (max-device-width: 992px) {
     .DON-BTN {
-        top: 21vh;
+        top: 40vh;
         height: 5vh;
         left: 41vh vh;
         font-size: x-large;
+        height: 9vh;
+    }
+}
+@media (max-device-width: 425px) {
+    .DON-BTN {
+        height: 7vh;
     }
 }
 
@@ -53,9 +58,9 @@
     font-family: Dancing Script, cursive;
 }
 
-@media (max-width: 992px) {
+@media (max-device-width: 992px) {
     .donate-banner {
-        top: 25vh;
+        top: 50vh;
         font-size: 3.4vw;
     }
 }

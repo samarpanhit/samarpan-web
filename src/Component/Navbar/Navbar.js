@@ -11,7 +11,6 @@ const Navbar = () => {
     toogle.current.click()
   }
   useEffect(() => {
-    console.log(location.pathname);
   }, [location])
   
   return (

@@ -4,7 +4,7 @@ const Galery = () => {
   return (
     <div className='container'>
         Galery is comming soon ..
-        </div>
+    </div>
   )
 }
 

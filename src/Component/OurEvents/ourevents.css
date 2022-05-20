@@ -1,0 +1,21 @@
+.event-page {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.event-page h1 {
+    text-align: center;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+@media(max-device-width: 425px){
+    .event-details {
+        justify-content: center
+        }
+}

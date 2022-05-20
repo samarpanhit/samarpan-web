@@ -29,8 +29,8 @@ const Footer = () => {
                 </div>
                 
             </div >
-            <div class="second">
-                <div class="second-item">
+            <div className="second">
+                <div className="second-item">
                     <h1>INFO</h1>
                     <ul>
                         <li><Link to="/" onClick={scrollToTop}>Home</Link></li>
@@ -49,25 +49,25 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div class="second-item">
+                <div className="second-item">
                     <h1>Contact Us</h1>
-                    <p><i class="fa-solid fa-phone"></i><a href='tel:+919002030141'> Mrinmoy: +919002030141</a></p>
-                    <p><i class="fa-solid fa-phone"></i><a href='tel:+918004333702'> Ashutosh: +918004333702</a></p>
-                    <p><i class="fa-solid fa-envelope"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
+                    <p><i className="fa-solid fa-phone"></i><a href='tel:+919002030141'> Mrinmoy: +919002030141</a></p>
+                    <p><i className="fa-solid fa-phone"></i><a href='tel:+918004333702'> Ashutosh: +918004333702</a></p>
+                    <p><i className="fa-solid fa-envelope"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
                 </div>
 
-                <div class="second-item">
+                <div className="second-item">
                     <h1>Reach Us</h1>
-                    <div class="reach-us">
+                    <div className="reach-us">
                         <span ><a href='https://www.facebook.com/samarpanathith' target='_blank'>
-                            <i class="fa-brands fa-facebook-f fa-2x"/>
+                            <i className="fa-brands fa-facebook-f fa-2x"/>
                         </a></span>
                         <span style={{ marginLeft: "25px" }}><a href='https://www.instagram.com/samarpan_hit/' target='_blank'>
-                            <i class="fa-brands fa-instagram fa-2x" target='_blank'></i>
+                            <i className="fa-brands fa-instagram fa-2x" target='_blank'></i>
                         </a></span>
                         
                     </div>
-                    <p class="copyright">Copyright &copy; 2022 by Samarpan</p>
+                    <p className="copyright">Copyright &copy; 2022 by Samarpan</p>
                 </div>
             </div>
         </footer>

@@ -1,0 +1,21 @@
+.eventFullpage{
+    text-align: center;
+}
+.Event{
+    width: 70%;
+    height: 750px;
+    margin: auto;
+}
+.event-pic{
+    height:500px ;
+    background-size: cover;
+}
+.date{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(93, 93, 93);
+}
+.event-data{
+    line-height: 1.8;
+    font-family: 'Trebuchet MS', sans-serif;
+}

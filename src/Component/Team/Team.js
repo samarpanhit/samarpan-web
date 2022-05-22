@@ -8,7 +8,7 @@ const Team = () => {
         <div className='team-container'>
             <h1 style={{textAlign: "center"}}>TEAM</h1>
             <div className='team-content'>
-                {core_member.map((member, i) => <Card name={member.name} role={member.role} img={member.img}/>)}
+                {core_member.map((member, i) => <Card name={member.name} role={member.role} id={member.id} />)}
                        
             </div>
         </div>

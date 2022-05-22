@@ -381,29 +381,32 @@ footer {
 
 @media (max-device-width: 425px) {
     .event-card {
-            height: 59vh;
-                width: 59vh;
+        height: 65vh;
+        width: 59vh;
     }
 }
 
 .upper {
     height: 300px;
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px 10px 0px 0px;
 }
+
 @media(max-device-width: 768px) {
     .upper {
         height: 47%;
     }
 }
+
 @media (max-device-width:425px) {
     .upper {
-        height: 45%;
+        height: 75%;
     }
 }
 
 .lower {
-    height: 300px;
+    height: 50vh;
     padding: 10px;
 }
 
@@ -423,9 +426,17 @@ footer {
     font-weight: 600;
     border: none;
 }
+
+@media (max-device-width: 768px) {
+    .read-more-btn {
+        margin-top: 1vh;
+
+    }
+}
+
 @media (max-device-width: 425px) {
     .read-more-btn {
-    margin-top: 4vh;
+        margin-top: 8vh;
         padding: 1vh;
         width: 18vw vw;
         font-size: 3vw;
@@ -459,15 +470,16 @@ footer {
 
 @media (max-device-width:768px) {
     .lower h3 {
-        font-size: 3rem;
+        font-size: 3vw;
+        margin-top: 1vh;
     }
 
     .event-date {
-        font-size: 30px;
+        font-size: 2.2vw;
     }
 
     .event-discrpt {
-        font-size: 2rem;
+        font-size: 2vw;
     }
 
     .event-button {
@@ -475,4 +487,17 @@ footer {
         height: 80px;
         font-size: 25px;
     }
+}
+
+@media (max-device-width:425px) {
+    .lower h3 {
+        font-size: 6vw;
+    }
+
+    .event-date {
+        font-size: 3.5vw;
+    }
+        .event-discrpt {
+            font-size: 3vw;
+        }
 }

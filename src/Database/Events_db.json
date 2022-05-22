@@ -2,31 +2,36 @@
     {
         "id": "e-1",
         "title": "What is Lorem Ipsum?",
-        "date": "25 June 2022",
-        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five"
+        "date": "21 June 2022",
+        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+        "image": "../../../assets/slider/1.jpg"
     },
     {
         "id": "e-2",
         "title": "how is Lorem Ipsum?",
-        "date": "25 June 2022",
-        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five"
+        "date": "22 June 2022",
+        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+        "image": "../../../assets/slider/2.jpg"
     },
     {
         "id": "e-3",
         "title": "when is Lorem Ipsum?",
-        "date": "25 June 2022",
-        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five"
+        "date": "23 June 2022",
+        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+        "image": "../../../assets/slider/3.jpg"
     },
     {
         "id": "e-4",
         "title": "when is Lorem Ipsum?",
-        "date": "25 June 2022",
-        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five"
+        "date": "24 June 2022",
+        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+        "image": "../../../assets/slider/4.jpg"
     },
     {
         "id": "e-5",
         "title": "when is Lorem Ipsum?",
         "date": "25 June 2022",
-        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five"
+        "contents": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+        "image": "../../../assets/slider/5.jpg"
     }
 ]

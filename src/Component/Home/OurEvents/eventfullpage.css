@@ -1,21 +1,40 @@
-.eventFullpage{
+.eventFullpage {
     text-align: center;
 }
-.Event{
-    width: 70%;
-    height: 750px;
+
+.Event {
+    width: 90%;
     margin: auto;
 }
-.event-pic{
-    height:500px ;
+
+.event-pic {
+    height: 500px;
     background-size: cover;
 }
-.date{
+
+.date {
     font-size: 20px;
     font-weight: bold;
     color: rgb(93, 93, 93);
 }
-.event-data{
-    line-height: 1.8;
-    font-family: 'Trebuchet MS', sans-serif;
+
+.event-title {
+    font-size: 5vw;
+    padding-bottom: 5vh;
+}
+@media (max-device-width: 425px) {
+
+    .event-title {
+        font-size: 7vw;
+        padding-bottom: 5vh;
+    }
+}
+
+.event-data {
+    font-size: 2vw;
+}
+@media (max-device-width: 425px){
+    .event-data {
+        font-size: 4vw;
+    }
 }

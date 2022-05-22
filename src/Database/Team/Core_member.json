@@ -1,32 +1,32 @@
 [
     {
+        "id": "c-1",
         "name": "Asutosh Tiwari",
-        "role": "HEAD",
-        "img": "../../assets/slider/1.jpg"
+        "role": "HEAD"
     },
     {
+        "id": "c-2",
         "name": "Mrinmoy Sarkar",
-        "role": "JOINT HEAD",
-        "img": "../../assets/slider/2.jpg"
+        "role": "JOINT HEAD"
     },
     {
+        "id": "c-3",
         "name": "Pankaj Kumar",
-        "role": "VOLUNTEERING LEAD",
-        "img": "../../assets/slider/2.jpg"
+        "role": "VOLUNTEERING LEAD"
     },
     {
+        "id": "c-4",
         "name": "Ankita Biswas",
-        "role": "MENTORING LEAD",
-        "img": "../../assets/slider/2.jpg"
+        "role": "MENTORING LEAD"
     },
     {
+        "id": "c-5",
         "name": "Jayeeta Gorai",
-        "role": "CREATIVE & CULTURAL LEAD",
-        "img": "../../assets/slider/2.jpg"
+        "role": "CREATIVE & CULTURAL LEAD"
     },
     {
+        "id": "c-6",
         "name": "Shubham Anand",
-        "role": "Social Media & Promotion Lead",
-        "img": "../../assets/slider/2.jpg"
+        "role": "Social Media & Promotion Lead"
     }
 ]

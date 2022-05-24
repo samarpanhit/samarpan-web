@@ -15,10 +15,10 @@ const Navbar = () => {
   
   return (
     <>
-      <Alert />
+      {/* <Alert /> */}
       <section id="title">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link to="#" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
             <img className="logo" src={image1} alt="" />
           </Link>
           {(location.pathname)!=='/donate' &&

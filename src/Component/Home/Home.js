@@ -1,9 +1,7 @@
 import React from 'react'
 import './home.css'
 import ImageSlider from './ImageSlider'
-import slideimg1 from '../../assets/slider/1.jpg'
-import slideimg2 from '../../assets/slider/2.jpg'
-import slideimg3 from '../../assets/slider/3.jpg'
+
 import Mission from './Mission/Mission'
 import Vision from './Vision/Vision'
 import Ourevents from './OurEvents/Ourevents'

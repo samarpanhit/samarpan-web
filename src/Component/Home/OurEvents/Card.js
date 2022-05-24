@@ -22,8 +22,8 @@ const Card = (props) => {
         <p className='event-date'>{date}</p>
         
         <p className='event-discrpt'><Readmore >{contents}</Readmore></p>
-        <Link to={props.id}><button className='read-more-btn' onClick={scrollToTop}>Read more</button></Link>
       </div>
+      <Link to={props.id}><button className='read-more-btn' onClick={scrollToTop}>Read more</button></Link>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom';
+import CountUp from 'react-countup';
 
 const Footer = () => {
     const scrollToTop = () => {
@@ -13,7 +13,9 @@ const Footer = () => {
         <footer>
             < div className="first" >
                 <div className="first-item">
-                    <span className='f-i-n'>342</span>
+                    <span className='f-i-n'>
+                        <CountUp end={342} duration={5}/>
+                    </span>
                     <span>Total</span>
                     <span>Teachers</span>
                 </div>
@@ -51,9 +53,9 @@ const Footer = () => {
 
                 <div className="second-item">
                     <h1>Contact Us</h1>
-                    <p><i className="fa-solid fa-phone"></i><a href='tel:+919002030141'> Mrinmoy: +919002030141</a></p>
-                    <p><i className="fa-solid fa-phone"></i><a href='tel:+918004333702'> Ashutosh: +918004333702</a></p>
-                    <p><i className="fa-solid fa-envelope"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+919002030141'> Mrinmoy: +919002030141</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+918004333702'> Ashutosh: +918004333702</a></p>
+                    <p><i className="fa-solid fa-envelope fa-customise"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
                 </div>
 
                 <div className="second-item">

@@ -1,9 +1,16 @@
 import React from 'react'
-import img1 from '../../../assets/slider/1.jpg'
-import img2 from '../../../assets/slider/2.jpg'
-import img3 from '../../../assets/slider/3.jpg'
+import { Link } from 'react-router-dom'
+import img1 from '../../../assets/Home/Mission/1.jpg'
+import img2 from '../../../assets/Home/Mission/2.jpg'
+import img3 from '../../../assets/Home/Mission/3.jpg'
 
 const Mission = (props) => {
+    function handleMision() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+        });
+    }
     const {bgcolor} = props
     return (
         <div className="container-fluid">
@@ -32,7 +39,7 @@ const Mission = (props) => {
                 <div className="col-lg-6 mission-text" style={{ background: bgcolor}}>
                     <h1>OUR MISSION</h1>
                     <p>Samarpan ensures that every child is given the right to learn and prosper</p>
-                    <button type="button" className="mission-button" style={{ background: bgcolor }} target="#">READ MORE</button>
+                    <Link onClick={handleMision} className="mission-button" style={{ background: bgcolor, textDecoration:'none' }} to='/about'>READ MORE</Link>
                 </div>
             </div>
         </div>

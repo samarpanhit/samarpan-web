@@ -55,12 +55,42 @@
     }
 }
 
+.banner_top .b-t-h {
+    font-size: 8vw;
+    font-family: Permanent Marker, cursive;
+}
+
+.banner_top .b-t-c {
+    font-size: 2.5rem;
+    font-family: Dancing Script, cursive;
+}
+
+@media (max-device-width: 992px) {
+    .banner_top .b-t-h {
+        font-size: 10vw;
+    }
+
+    .banner_top .b-t-c {
+        font-size: 2rem;
+    }
+}
+
+@media (max-device-width: 425px) {
+    .banner_top .b-t-h {
+        font-size: 13vw;
+    }
+
+    .banner_top .b-t-c {
+        font-size: 2.5rem;
+    }
+}
+
 .vision_btn_banner {
     border: 1px solid white;
     background: rgb(0, 0, 0, 0.1);
     color: white;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 24vw;
     margin-top: 2vw;
 }
@@ -163,6 +193,10 @@ footer {
     }
 }
 
+.second-item .fa-customise{
+    font-size: 2.5vh;
+}
+
 .second-item {
     width: 100vw;
     display: flex;
@@ -187,18 +221,18 @@ footer {
 
 .second-item h1 {
     margin-bottom: 20px;
+    font-size: 4vw;
 }
 
-@media (max-device-width: 992px) {
+@media (max-device-width: 768px) {
     .second-item h1 {
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 700;
     }
 }
-
 @media (max-device-width: 425px) {
     .second-item h1 {
-        font-size: 9vw;
+        font-size: 10vw;
     }
 }
 
@@ -212,8 +246,30 @@ footer {
 }
 
 .second-item a {
+    font-size: 1rem;
     text-decoration: none;
     color: black;
+}
+.second-item p {
+    font-size: 1rem;
+}
+@media (max-device-width: 768px) {
+    .second-item a {
+            font-size: 1.3rem;
+        }
+    
+        .second-item p {
+            font-size: 1.3rem;
+        }
+}
+@media (max-device-width: 425px) {
+    .second-item a {
+            font-size: 2.7rem;
+        }
+    
+        .second-item p {
+            font-size: 2.7rem;
+        }
 }
 
 .second-item a:hover {
@@ -245,16 +301,20 @@ footer {
 }
 
 .social-msg p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
-
+@media (max-device-width: 768px) {
+    .social-msg p {
+        font-size: 1.2rem;
+    }
+}
 @media (max-device-width: 425px) {
     .social-msg h1 {
         font-size: 8vw;
     }
 
     .social-msg p {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -282,7 +342,7 @@ footer {
     height: 80vh;
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 @media (max-device-width: 992px) {
@@ -292,8 +352,15 @@ footer {
     }
 }
 
+@media (max-device-width: 768px) {
+    .mission-text {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-device-width: 425px) {
     .mission-text {
+        font-size: 2.5rem;
         justify-content: space-evenly;
     }
 }
@@ -302,7 +369,15 @@ footer {
     font-size: 5vw;
     margin-bottom: 25px;
 }
+.mission-text p {
+    font-size: 1rem;
+}
 
+@media (max-device-width: 768px) {
+    .mission-text h1 {
+        font-size: 9vw;
+    }
+}
 @media (max-device-width: 425px) {
     .mission-text h1 {
         font-size: 13vw;
@@ -310,6 +385,9 @@ footer {
 }
 
 .mission-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 12vh;
     width: 20vw;
     margin-top: 25px;
@@ -334,6 +412,7 @@ footer {
 .mission-button:hover {
     box-shadow: 0px 0px;
     transform: translateY(5px);
+    color: white;
 }
 
 
@@ -364,15 +443,20 @@ footer {
     padding: 0 1vw;
 }
 
+@media (max-device-width: 425px) {
+    .event-content {
+        padding: 0 10vw;
+    }
+}
+
 .event-card {
     border-radius: 10px;
-    height: 85vh;
+    height: 65vh;
     width: 30vw;
     display: flex;
     flex-direction: column;
     box-shadow: 1px 5px 10px black;
     margin-bottom: 5vh;
-    margin-right: 11px;
 }
 
 .event-card:last-child {
@@ -387,7 +471,7 @@ footer {
 }
 
 .upper {
-    height: 300px;
+    height: 50%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px 10px 0px 0px;
@@ -406,25 +490,26 @@ footer {
 }
 
 .lower {
-    height: 50vh;
     padding: 10px;
 }
 
 .lower h3 {
     margin-top: 3vh;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 .read-more-btn {
     min-width: 8vw;
     min-height: 2vh;
     float: left;
-    margin-top: 3vh;
     border-radius: 8px;
     background: blue;
     color: white;
     font-weight: 600;
     border: none;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+    font-size: 1.5vw;
 }
 
 @media (max-device-width: 768px) {
@@ -436,7 +521,6 @@ footer {
 
 @media (max-device-width: 425px) {
     .read-more-btn {
-        margin-top: 8vh;
         padding: 1vh;
         width: 18vw vw;
         font-size: 3vw;
@@ -445,17 +529,17 @@ footer {
 }
 
 .event-date {
-    font-size: 20px;
+    font-size: 1vw;
     color: rgb(83, 83, 83);
 }
 
 .event-button {
     margin: 50px;
-    width: 150px;
-    height: 60px;
+    width: 9vw;
+    height: 6vh;
     background-color: red;
     color: white;
-    font-size: 20px;
+    font-size: 1.4vw;
     box-shadow: 1px 5px 10px black;
     border: 2px solid red;
     border-radius: 10px;
@@ -466,6 +550,10 @@ footer {
     box-shadow: 0 0;
     transform: translateY(5px);
     background-color: rgb(147, 3, 3);
+}
+
+.event-discrpt {
+    font-size: 1.2vw;
 }
 
 @media (max-device-width:768px) {
@@ -479,13 +567,13 @@ footer {
     }
 
     .event-discrpt {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     .event-button {
-        width: 200px;
-        height: 80px;
-        font-size: 25px;
+        width: 16vw;
+        height: 8vh;
+        font-size: 2vw;
     }
 }
 
@@ -497,7 +585,14 @@ footer {
     .event-date {
         font-size: 3.5vw;
     }
-        .event-discrpt {
-            font-size: 3vw;
+
+    .event-discrpt {
+        font-size: 2.2rem;
+    }
+        .event-button {
+                width: 21vw;
+                    height: 6vh;
+                    font-size: 3vw;
         }
+        
 }

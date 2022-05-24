@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from '../../assets/slider/1.jpg'
 
 const Card = (props) => {
     const {name,role,id} = props

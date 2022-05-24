@@ -1,13 +1,31 @@
 .team-container {
     padding: 30px 0 30px 30px;
     background: rgb(239, 239, 245);
-    
+
 }
 
-.team-content{
-display: flex;
+.team-container h1 {
+    text-align: center;
+}
+
+@media(max-device-width:425px) {
+    .team-container h1 {
+        font-size: 8vw;
+    }
+}
+
+.team-content {
+    display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding: 5vh 10vw;
+}
+
+@media(max-device-width: 425px) {
+    .team-content {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .team-card {
@@ -18,11 +36,25 @@ display: flex;
     width: 15vw;
     border-radius: 10px;
     padding: 7px;
-    margin-right: 54px;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
 }
-.team-card:last-child {
-    margin-right: 0px;
+
+@media (max-device-width:425px) {
+    .team-card {
+        width: calc(40vw * 1.5);
+    }
+}
+
+.team-card:nth-child(3n-1) {
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+@media(max-device-width: 425px) {
+    .team-card:nth-child(3n-1) {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 .photo-holder {
@@ -32,12 +64,32 @@ display: flex;
     height: 70%;
     border-radius: 10px;
 }
+@media(max-device-width: 425px)
+{
+    .photo-holder {
+        height: 80%;
+    }
+}
 
 .team-role {
-    color: grey;
+    color: rgb(128, 128, 160);
+    font-size: 1vw;
+}
+
+@media(max-device-width: 425px) {
+    .team-role {
+        font-weight: 500;
+        font-size: 3.5vw;
+    }
+}
+
+.team-name {
+    font-size: 1.8vw;
     font-weight: 600;
 }
-.team-name {
-        font-size: 1.8vw;
-            font-weight: 600;
+
+@media(max-device-width: 425px) {
+    .team-name {
+        font-size: 5vw;
+    }
 }

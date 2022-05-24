@@ -14,7 +14,7 @@ const Ourevents = () => {
     <div className='ourevents'>
       <h1>OUR EVENTS</h1>
       <div className='event-content'>
-        {Events_db.slice(0,3).map((item,i)=> <Card title={item.title} date={item.date} contents={item.contents} id={item.id}/>)}
+        {Events_db.slice(0,3).reverse().map((item,i)=> <Card title={item.title} date={item.date} contents={item.contents} id={item.id}/>)}
 
       </div>
       <Link to='/event'><button type='button' className='event-button' onClick={handleClick}>READ MORE</button></Link>

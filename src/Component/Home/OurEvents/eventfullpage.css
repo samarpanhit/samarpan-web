@@ -8,8 +8,10 @@
 }
 
 .event-pic {
-    height: 500px;
-    background-size: cover;
+    height: 65vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .date {

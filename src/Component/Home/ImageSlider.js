@@ -1,11 +1,11 @@
 import React from 'react'
 import './home.css'
-import img1 from '../../assets/slider/1.jpg'
-import img2 from '../../assets/slider/2.jpg'
-import img3 from '../../assets/slider/3.jpg'
-import img4 from '../../assets/slider/4.jpg'
-import img5 from '../../assets/slider/5.jpg'
-import img6 from '../../assets/slider/6.jpg'
+import img1 from '../../assets/Home/slider/1.jpg'
+import img2 from '../../assets/Home/slider/2.jpg'
+import img3 from '../../assets/Home/slider/3.jpg'
+import img4 from '../../assets/Home/slider/4.jpg'
+import img5 from '../../assets/Home/slider/5.jpg'
+import img6 from '../../assets/Home/slider/6.jpg'
 
 const ImageSlider = () => {
     return (

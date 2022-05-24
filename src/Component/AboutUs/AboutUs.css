@@ -1,0 +1,45 @@
+.main-aboutus{
+    padding: 5vw;
+}
+@media(max-device-width: 425px) {
+    .main-aboutus {
+            padding: 7vw;
+        }
+}
+.main-aboutus h1{
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+@media(max-device-width: 425px) {
+    .main-aboutus h1{
+        padding-bottom: 5vh;
+    }
+}
+.main-aboutus p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+@media(max-device-width: 425px)
+{
+    .main-aboutus h1 {
+            font-size: 7vw;
+        }
+    
+        .main-aboutus p {
+            font-size: 4vw;
+        }
+}
+
+.aboutus{
+    height: 100vh;
+}
+
+.about-vision{
+    height: 100vh;
+}
+
+.about-mission{
+    height: 100vh;
+}
+

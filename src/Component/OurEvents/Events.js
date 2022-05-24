@@ -8,7 +8,7 @@ const Events = () => {
     <div className='event-page'>
       <h1>OUR EVENTS</h1>
       <div className='event-details'>
-      {Events_db.map((item, i) => <Card title={item.title} date={item.date} contents={item.contents} id={item.id}/>)}
+      {Events_db.reverse().map((item, i) => <Card title={item.title} date={item.date} contents={item.contents} id={item.id}/>)}
       </div>
     </div>
   )

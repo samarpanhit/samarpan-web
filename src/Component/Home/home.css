@@ -369,10 +369,6 @@ footer {
     font-size: 5vw;
     margin-bottom: 25px;
 }
-.mission-text p {
-    font-size: 1rem;
-}
-
 @media (max-device-width: 768px) {
     .mission-text h1 {
         font-size: 9vw;
@@ -383,6 +379,17 @@ footer {
         font-size: 13vw;
     }
 }
+
+.mission-text p {
+    font-size: 1rem;
+}
+@media(max-device-width:425px)
+{
+    .mission-text p {
+            font-size: 2rem;
+        }
+}
+
 
 .mission-button {
     display: flex;

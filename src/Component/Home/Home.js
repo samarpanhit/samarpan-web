@@ -5,6 +5,7 @@ import ImageSlider from './ImageSlider'
 import Mission from './Mission/Mission'
 import Vision from './Vision/Vision'
 import Ourevents from './OurEvents/Ourevents'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -12,9 +13,9 @@ const Home = () => {
             <ImageSlider />
 
             <div className='banner_top'>
-                <span style={{ fontSize: "8vw", fontFamily: 'Permanent Marker, cursive' }}>SAMARPAN</span>
-                <span style={{ fontSize: "2rem", fontFamily: 'Dancing Script, cursive' }}>EK SOCH, EK VISWAAS</span>
-                <button className='vision_btn_banner'>OUR VISION</button>
+                <span className='b-t-h'>SAMARPAN</span>
+                <span className='b-t-c'>EK SOCH, EK VISWAAS</span>
+                <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>OUR VISION</Link>
             </div>
 
             <div className='social-msg'>

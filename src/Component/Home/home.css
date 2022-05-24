@@ -40,20 +40,12 @@
     top: 55vh;
     margin-left: 12vw;
 }
-
-@media (max-device-width: 992px) {
-    .banner_top {
-        font-size: 7vw;
-        top: 65vh;
-        margin-left: 15vw;
-    }
-}
-
 @media (max-device-width: 425px) {
     .banner_top {
         top: 31vh;
     }
 }
+
 
 .banner_top .b-t-h {
     font-size: 8vw;
@@ -61,20 +53,18 @@
 }
 
 .banner_top .b-t-c {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     font-family: Dancing Script, cursive;
 }
 
-@media (max-device-width: 992px) {
+@media (max-device-width: 768px) {
     .banner_top .b-t-h {
         font-size: 10vw;
     }
-
     .banner_top .b-t-c {
         font-size: 2rem;
     }
 }
-
 @media (max-device-width: 425px) {
     .banner_top .b-t-h {
         font-size: 13vw;
@@ -86,6 +76,7 @@
 }
 
 .vision_btn_banner {
+    text-align: center;
     border: 1px solid white;
     background: rgb(0, 0, 0, 0.1);
     color: white;
@@ -102,6 +93,7 @@
 }
 
 .vision_btn_banner:hover {
+    color: white;
     border: 1px solid grey;
     background: grey;
     transform: scaleX(1.09);

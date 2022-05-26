@@ -24,14 +24,15 @@
 
 .DON-BTN {
     position: absolute;
-        top: 51vh;
-        left: 46vw;
-        height: 10vh;
-        font-weight: 600;
-        border: 4px solid white;
-        border-radius: 10px;
-        color: white;
+    top: 51vh;
+    left: 46vw;
+    height: 10vh;
+    font-weight: 600;
+    border: 4px solid white;
+    border-radius: 10px;
+    color: white;
 }
+
 @media (max-device-width: 768px) {
     .DON-BTN {
         top: 60vh;
@@ -41,6 +42,7 @@
         height: 9vh;
     }
 }
+
 @media (max-device-width: 425px) {
     .DON-BTN {
         height: 7vh;
@@ -64,9 +66,10 @@
         font-size: 3.4vw;
     }
 }
+
 @media (max-device-width: 425px) {
     .donate-banner {
-    left: 10vw;
+        left: 10vw;
         font-size: 4.5vw;
     }
 }
@@ -89,10 +92,16 @@
 
 .upiid {
     display: flex;
-    height: 6vh;
+    height: 20vh;
     width: 100%;
     color: black;
     font-weight: 700;
     justify-content: center;
     font-size: 5vw;
+}
+
+@media(max-device-width:425px) {
+    .upiid {
+        height: 10vh;
+    }
 }

@@ -4,55 +4,27 @@
         "title": "First Day",
         "sub": [
             {
-                "original": "https: //picsum.photos/id/1018/1000/600/",
-                "description": "Ghandhi nagar area"
+                "description": "Gandhinagar"
             },
             {
-                "original": "https: //picsum.photos/id/1015/1000/600/",
-                "description": "Khudiramnagar"
-            },
-            {
-                "original": "https: //picsum.photos/id/1019/1000/600/",
                 "description": ""
             },
             {
-                "original": "https: //picsum.photos/id/1019/1000/600/",
                 "description": ""
             }
         ]
     },
     {
         "id": 2,
-        "title": "Second day",
+        "title": "second day",
         "sub": [
             {
-                "original": "https: //picsum.photos/id/1018/1000/600/",
-                "description": "Ghandhi nagar area"
+                "description": "khudiram nagar"
             },
             {
-                "original": "https: //picsum.photos/id/1015/1000/600/",
-                "description": "Khudiramnagar"
-            },
-            {
-                "original": "https: //picsum.photos/id/1019/1000/600/",
                 "description": ""
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Third day",
-        "sub": [
-            {
-                "original": "https: //picsum.photos/id/1018/1000/600/",
-                "description": "Ghandhi nagar area"
             },
             {
-                "original": "https: //picsum.photos/id/1015/1000/600/",
-                "description": "Khudiramnagar"
-            },
-            {
-                "original": "https: //picsum.photos/id/1019/1000/600/",
                 "description": ""
             }
         ]

@@ -6,10 +6,10 @@
     width: 100vw;
 }
 
-@media (max-device-width: 992px) {
+@media (max-device-width: 768px) {
     .donate {
         background-size: cover;
-        height: 50vh;
+        height: 75vh;
     }
 }
 
@@ -25,18 +25,18 @@
 .DON-BTN {
     position: absolute;
         top: 51vh;
-        left: 43vw;
+        left: 46vw;
         height: 10vh;
         font-weight: 600;
-        border: 4px solid WHITE;
+        border: 4px solid white;
         border-radius: 10px;
         color: white;
 }
-@media (max-device-width: 992px) {
+@media (max-device-width: 768px) {
     .DON-BTN {
-        top: 40vh;
+        top: 60vh;
         height: 5vh;
-        left: 41vh vh;
+        left: 40vw;
         font-size: x-large;
         height: 9vh;
     }
@@ -58,18 +58,24 @@
     font-family: Dancing Script, cursive;
 }
 
-@media (max-device-width: 992px) {
+@media (max-device-width: 768px) {
     .donate-banner {
-        top: 50vh;
+        top: 75vh;
         font-size: 3.4vw;
+    }
+}
+@media (max-device-width: 425px) {
+    .donate-banner {
+    left: 10vw;
+        font-size: 4.5vw;
     }
 }
 
 .DON-BTN:hover {
-    background-color: grey;
+    background-color: red;
     color: white;
     font-weight: 700;
-    border-color: grey;
+    border-color: red;
 }
 
 .qrholder {
@@ -83,11 +89,10 @@
 
 .upiid {
     display: flex;
-    flex-direction: column;
-    padding-left: 15vw;
-    padding-top: 5vh;
-    height: 20vh;
+    height: 6vh;
     width: 100%;
     color: black;
     font-weight: 700;
+    justify-content: center;
+    font-size: 5vw;
 }

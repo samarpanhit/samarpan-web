@@ -1,8 +1,16 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 const Footer = () => {
+
+    const [didViewCountUp, setDidViewCountUp] = useState(false)
+    function onVisibilityChange(isVisible){
+        if (isVisible) {
+            setDidViewCountUp({ didViewCountUp: true });
+        }
+    }
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -14,18 +22,37 @@ const Footer = () => {
             < div className="first" >
                 <div className="first-item">
                     <span className='f-i-n'>
-                        <CountUp end={342} duration={5}/>
+                        <VisibilitySensor onChange={onVisibilityChange} offset={{
+                            top:
+                                10
+                        }} delayedCall>
+                            <CountUp start={0} end={didViewCountUp ? 342 : 0} duration={3} />
+                        </VisibilitySensor>
                     </span>
                     <span>Total</span>
                     <span>Teachers</span>
                 </div>
                 <div className="first-item">
-                    <span className='f-i-n'>342</span>
+                    <span className='f-i-n'>
+                        <VisibilitySensor onChange={onVisibilityChange} offset={{
+                            top:
+                                10
+                        }} delayedCall>
+                            <CountUp start={0} end={didViewCountUp ? 342 : 0} duration={3} />
+                        </VisibilitySensor>
+                    </span>
                     <span>Total</span>
                     <span>Volunters</span>
                 </div>
                 <div className="first-item">
-                    <span className='f-i-n'>342</span>
+                    <span className='f-i-n'>
+                        <VisibilitySensor onChange={onVisibilityChange} offset={{
+                            top:
+                                10
+                        }} delayedCall>
+                            <CountUp start={0} end={didViewCountUp ? 342 : 0} duration={3} />
+                        </VisibilitySensor>
+                    </span>
                     <span>Total</span>
                     <span>Students</span>
                 </div>

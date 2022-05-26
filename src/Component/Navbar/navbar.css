@@ -13,8 +13,20 @@
 }
 
 .logo {
-  width: 6vw;
+  width: 5vw;
   border-radius: 100%;
+}
+@media(max-device-width:768px)
+{
+  .logo {
+      width: 8vw;
+    }
+}
+@media(max-device-width:425px)
+{
+  .logo {
+      width: 16vw;
+    }
 }
 .a-c,
 .b-c {
@@ -49,9 +61,7 @@
   .alert{
         font-size: 4vw;
   }
-  .logo {
-      width: 12vw;
-    }
+
   .b-c{
     display: none;
   }

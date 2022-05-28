@@ -10,6 +10,7 @@
 
 .nav-link {
   font-size: 1.5vw;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -40,6 +41,7 @@
   justify-content: center;
   border: 1px solid rgb(255, 57, 57);
   font-size: 1.2vw;
+  font-family: 'Montserrat', sans-serif;
 }
 .a-c {
   display: none;

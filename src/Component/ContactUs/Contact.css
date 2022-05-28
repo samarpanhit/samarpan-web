@@ -1,8 +1,8 @@
 .contact-head {
     text-align: center;
     margin: 40px;
-    font-weight: bolder;
     font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-box {
@@ -11,7 +11,7 @@
 }
 
 .contact-box h3 {
-    font-family: 'Montserrat,sans-serif';
+    font-family: 'Bree Serif', serif;
     font-weight: bolder;
 }
 
@@ -19,6 +19,8 @@
     font-size: 19.2px;
     color: grey;
     text-decoration: none;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
 }
 .contact-box a{
     text-decoration: none;

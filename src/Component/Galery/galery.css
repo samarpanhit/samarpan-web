@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 @media(max-device-width:425px)
@@ -27,6 +28,8 @@
 .gal-title {
     text-align: center;
     font-size: 2vw;
+    font-family: 'montserrat', sans-serif;
+    
 }
 @media(max-device-width:425px) {
     .gal-title {

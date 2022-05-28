@@ -10,6 +10,7 @@
     font-size: 4vw;
     text-align: center;
     padding-bottom: 10vh;
+    font-family: 'montserrat', sans-serif;
 }
 @media(max-device-width: 425px) {
     .main-aboutus h1{
@@ -19,6 +20,7 @@
 .main-aboutus p{
     font-size: 1.3rem;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 @media(max-device-width: 425px)
 {

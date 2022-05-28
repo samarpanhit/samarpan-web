@@ -42,7 +42,7 @@ const Footer = () => {
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>
-                    <span>Volunters</span>
+                    <span>Volunteers</span>
                 </div>
                 <div className="first-item">
                     <span className='f-i-n'>

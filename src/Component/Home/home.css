@@ -84,6 +84,7 @@
     font-size: 2rem;
     width: 24vw;
     margin-top: 2vw;
+    font-family: 'Bree Serif', serif;
 }
 
 @media (max-device-width: 992px) {
@@ -141,10 +142,12 @@ footer {
     flex-direction: column;
     font-size: 1.5vw;
     font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .f-i-n {
     font-size: 2.5vw;
+
 }
 
 @media (max-device-width: 992px) {
@@ -213,6 +216,8 @@ footer {
 .second-item h1 {
     margin-bottom: 20px;
     font-size: 4vw;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-device-width: 768px) {
@@ -233,7 +238,7 @@ footer {
 
 .second-item ul li {
     list-style: none;
-
+    font-family: 'roboto', sans-serif;
 }
 
 .second-item a {
@@ -243,6 +248,7 @@ footer {
 }
 .second-item p {
     font-size: 1rem;
+    font-family: 'roboto', sans-serif;
 }
 @media (max-device-width: 768px) {
     .second-item a {
@@ -289,10 +295,13 @@ footer {
 .social-msg h1 {
     font-size: 5vw;
     padding-bottom: 5vh;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
 }
 
 .social-msg p {
     font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
 }
 @media (max-device-width: 768px) {
     .social-msg p {
@@ -359,6 +368,8 @@ footer {
 .mission-text h1 {
     font-size: 5vw;
     margin-bottom: 25px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
 }
 @media (max-device-width: 768px) {
     .mission-text h1 {
@@ -373,6 +384,8 @@ footer {
 
 .mission-text p {
     font-size: 1rem;
+    font-family: 'roboto', sans-serif;
+    
 }
 @media(max-device-width:425px)
 {
@@ -393,6 +406,7 @@ footer {
     border-radius: 10px;
     color: white;
     box-shadow: 1px 5px 10px black;
+    font-family: 'Bree Serif', serif;
 }
 
 @media (max-device-width: 768px) {
@@ -424,6 +438,7 @@ footer {
 .ourevents h1 {
     margin: 30px 0 30px 0;
     font-size: 5vw;
+    font-family: 'ubuntu', sans-serif;
     font-weight: bold;
 }
 
@@ -494,6 +509,7 @@ footer {
 .lower h3 {
     margin-top: 3vh;
     font-size: 2.5vw;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .read-more-btn {
@@ -503,11 +519,12 @@ footer {
     border-radius: 8px;
     background: blue;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
     border: none;
     margin-left: 1vw;
     margin-bottom: 1vh;
     font-size: 1.5vw;
+    font-family: 'Bree Serif', serif;
 }
 
 @media (max-device-width: 768px) {
@@ -529,6 +546,7 @@ footer {
 .event-date {
     font-size: 1vw;
     color: rgb(83, 83, 83);
+    font-weight: bold;
 }
 
 .event-button {
@@ -541,6 +559,7 @@ footer {
     box-shadow: 1px 5px 10px black;
     border: 2px solid red;
     border-radius: 10px;
+    font-family: 'Bree Serif', serif;
 }
 
 .event-button:hover {
@@ -552,6 +571,7 @@ footer {
 
 .event-discrpt {
     font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media (max-device-width:768px) {

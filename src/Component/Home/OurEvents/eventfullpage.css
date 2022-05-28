@@ -14,15 +14,17 @@
     background-repeat: no-repeat;
 }
 
-.date {
+.event-date {
     font-size: 20px;
     font-weight: bold;
     color: rgb(93, 93, 93);
+
 }
 
 .event-title {
     font-size: 5vw;
     padding-bottom: 5vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 @media (max-device-width: 425px) {
 
@@ -34,6 +36,7 @@
 
 .event-data {
     font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
 }
 @media (max-device-width: 425px){
     .event-data {

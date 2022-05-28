@@ -1,5 +1,6 @@
 .main-aboutus{
     padding: 5vw;
+    background: #f8f9fa
 }
 @media(max-device-width: 425px) {
     .main-aboutus {

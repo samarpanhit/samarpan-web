@@ -1,3 +1,6 @@
+.contact-page{
+    background: #f8f9fa;
+}
 .contact-head {
     text-align: center;
     margin: 40px;
@@ -22,7 +25,8 @@
     font-family: 'ubuntu', sans-serif;
     font-weight: bold;
 }
-.contact-box a{
+
+.contact-box a {
     text-decoration: none;
 }
 
@@ -35,20 +39,22 @@
     color: red;
 }
 
-.fa-customise{
+.fa-customise {
     font-size: 10vh;
 }
 
 @media (max-device-width:992px) {
     .fa-customise {
-            font-size: 15vh;
-        }
+        font-size: 15vh;
+    }
 }
+
 @media (max-device-width:768px) {
     .fa-customise {
-            font-size: 10vh;
-        }
+        font-size: 10vh;
+    }
 }
+
 @media (max-device-width:992px) {
     .contact-box h3 {
         font-size: 7vw;
@@ -62,6 +68,7 @@
         font-size: 10vw;
     }
 }
+
 @media (max-device-width:768px) {
     .contact-box h3 {
         font-size: 5vw;
@@ -73,5 +80,11 @@
 
     .contact-head {
         font-size: 10vw;
+    }
+}
+
+@media (max-device-width:768px) {
+    .contact-head {
+        width: 67vw;
     }
 }

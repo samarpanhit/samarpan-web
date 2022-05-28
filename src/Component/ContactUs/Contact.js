@@ -2,32 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './Contact.css'
 
 const Contact = () => {
-  const [windowDimenion, detectHW] = useState({
-    winWidth: window.innerWidth,
-    winHeight: window.innerHeight,
-  })
-
-  const detectSize = () => {
-    detectHW({
-      winWidth: window.innerWidth,
-      winHeight: window.innerHeight,
-    })
-  }
-
-  const [size, setSize] = useState("3x")
-  useEffect(() => {
-    window.addEventListener('resize', detectSize)
-
-    return () => {
-      window.removeEventListener('resize', detectSize)
-    }
-  }, [windowDimenion])
-
-  if(windowDimenion.winWidth === 1366)
-    console.log("karo");
-
   return (
-    <div className='container'>
+    <div className='contact-page container'>
 
       <h1 className="contact-head">CONTACT US</h1>
 

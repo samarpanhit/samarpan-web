@@ -1,5 +1,5 @@
 .galery {
-    /* background: red; */
+    background: #f8f9fa;
     padding: 2vw 0 2vw 2vw;
     display: flex;
     flex-direction: row;

@@ -8,12 +8,9 @@ const Dmodal = () => {
     }
     return (
         <div>
-            <span className='donate-banner'>Even a little is enough for happiness.</span>
             {/* Button trigger modal  */}
             <div >
-                <button type="button" id='dn-mod-btn' className="btn DON-BTN" data-bs-toggle="modal" data-bs-target="#donatemodal">
-                    MAKE DONATION
-                </button>
+                
             </div>
 
             {/* Modal */}

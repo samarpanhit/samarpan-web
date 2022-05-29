@@ -15,6 +15,12 @@ const Mission = (props) => {
     return (
         <div className="container-fluid">
             <div className="row">
+                <div className="col-lg-6 mission-text" style={{ background: bgcolor }}>
+                    {/* <h1>OUR MISSION</h1> */}
+                    <h1>Gallery</h1>
+                    {/* <p>Samarpan ensures that every child is given the right to learn and prosper</p> */}
+                    {/* <Link onClick={handleMision} className="mission-button" style={{ background: bgcolor, textDecoration:'none' }} to='/about'>READ MORE</Link> */}
+                </div>
                 <div className="col-lg-6 p-0 mission-carousel">
                     {/* carousel */}
                     <div id="carouselmissionFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -36,11 +42,7 @@ const Mission = (props) => {
                         </button>
                     </div>
                 </div>
-                <div className="col-lg-6 mission-text" style={{ background: bgcolor}}>
-                    <h1>OUR MISSION</h1>
-                    <p>Samarpan ensures that every child is given the right to learn and prosper</p>
-                    <Link onClick={handleMision} className="mission-button" style={{ background: bgcolor, textDecoration:'none' }} to='/about'>READ MORE</Link>
-                </div>
+                
             </div>
         </div>
     )

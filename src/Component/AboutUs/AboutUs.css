@@ -35,14 +35,14 @@
 }
 
 .aboutus{
-    height: 100vh;
+    height: fit-content;
 }
 
 .about-vision{
-    height: 100vh;
+    height: fit-content;
 }
 
 .about-mission{
-    height: 100vh;
+    height: fit-content;
 }
 

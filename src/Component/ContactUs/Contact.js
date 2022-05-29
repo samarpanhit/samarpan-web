@@ -10,7 +10,6 @@ const Contact = () => {
       <div className="row">
         <div className="contact-box col-lg-4">
           <a href="#">
-            {/* <i class="bi bi-instagram"></i> */}
             <a href='https://www.instagram.com/samarpan_hit/' target="_blank"><i className="fa-brands fa-instagram fa-customise contact-icon"/></a>
           </a>
           <h3>INSTAGRAM</h3>
@@ -29,7 +28,7 @@ const Contact = () => {
             <i className="fa-brands fa-linkedin fa-customise contact-icon"/>
           </a>
           <h3>LINKEDIN</h3>
-          <a href='https://www.linkedin.com/company/samarpanhit'>
+          <a href='https://www.linkedin.com/company/samarpanhit' target='_blank'>
           <p>@samarpanhit</p></a>
         </div>
       </div>

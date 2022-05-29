@@ -14,19 +14,18 @@
 }
 
 .logo {
-  width: 5vw;
-  border-radius: 100%;
+  width: 22vw;
 }
 @media(max-device-width:768px)
 {
   .logo {
-      width: 8vw;
+      width: 22vw;
     }
 }
 @media(max-device-width:425px)
 {
   .logo {
-      width: 16vw;
+      width: 32vw;
     }
 }
 .a-c,
@@ -59,7 +58,7 @@
   background: rgb(88, 0, 0);
 }
 
-@media (max-width: 992px) {
+@media (max-device-width: 992px) {
   .alert{
         font-size: 4vw;
   }
@@ -72,7 +71,7 @@
         min-width: 15vw;
           padding: 1vh;
           font-size: x-large;
-          margin-left: 50vw;
+          margin-left: 39vw;
   }
     .a-c:active {
       background: rgb(88, 0, 0);

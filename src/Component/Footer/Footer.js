@@ -94,6 +94,9 @@ const Footer = () => {
                         <span style={{ marginLeft: "25px" }}><a href='https://www.instagram.com/samarpan_hit/' target='_blank'>
                             <i className="fa-brands fa-instagram fa-2x" target='_blank'></i>
                         </a></span>
+                        <span style={{ marginLeft: "25px" }}><a href='https://www.linkedin.com/company/samarpanhit' target='_blank'>
+                            <i className="fa-brands fa-linkedin fa-2x" target='_blank'></i>
+                        </a></span>
                         
                     </div>
                     <p className="copyright">Copyright &copy; 2022 by Samarpan</p>

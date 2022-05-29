@@ -65,7 +65,7 @@
 
 .banner_top .b-t-c {
     font-size: 1.2rem;
-    font-family: eksochekviswas, italic;
+    font-family: eksochekviswas;
 }
 
 @media (max-device-width: 768px) {
@@ -330,14 +330,15 @@ footer {
 }
 
 
-/* mission / vision */
+/* mission */
 .mission-carousel {
     height: 80vh;
 }
 
-@media (max-device-width: 992px) {
+@media (max-device-width: 425px) {
     .mission-carousel {
         display: none;
+        padding: 10px;
     }
 }
 
@@ -371,6 +372,7 @@ footer {
 
 @media (max-device-width: 425px) {
     .mission-text {
+        display: none;
         font-size: 2.5rem;
         justify-content: space-evenly;
     }
@@ -396,6 +398,7 @@ footer {
 .mission-text p {
     font-size: 1rem;
     font-family: 'roboto', sans-serif;
+    text-align: justify;
     
 }
 @media(max-device-width:425px)
@@ -438,6 +441,125 @@ footer {
     color: white;
 }
 
+
+/* vision */
+.vision-carousel {
+    height: 80vh;
+}
+
+@media (max-device-width: 425px) {
+    .vision-carousel {
+        display: none;
+        padding: 10px;
+    }
+}
+
+.carousel-inner-vision {
+    height: 80vh;
+}
+
+.vision-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+@media (max-device-width: 992px) {
+    .vision-text {
+        font-size: 2rem;
+        height: 100vh;
+    }
+}
+
+@media (max-device-width: 768px) {
+    .vision-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-device-width: 425px) {
+    .vision-text {
+        /* display: none; */
+        font-size: 2.5rem;
+        justify-content: space-evenly;
+        padding: 0 10vw;
+        height: fit-content;
+    }
+}
+
+.vision-text h1 {
+    font-size: 5vw;
+    margin-bottom: 25px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+@media (max-device-width: 768px) {
+    .vision-text h1 {
+        font-size: 9vw;
+    }
+}
+
+@media (max-device-width: 425px) {
+    .vision-text h1 {
+        font-size: 13vw;
+    }
+}
+
+.vision-text p {
+    font-size: 1rem;
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+
+}
+
+@media(max-device-width:425px) {
+    .vision-text p {
+        font-size: 2rem;
+    }
+}
+
+
+.vision-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 20vw;
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 1px 5px 10px black;
+    font-family: 'Bree Serif', serif;
+}
+
+@media (max-device-width: 768px) {
+    .vision-button {
+        width: 30vw;
+    }
+}
+
+@media (max-device-width: 425px) {
+    .vision-button {
+            
+            height: 5vh;
+            width: 30vw;
+            border: 2px solid blue;
+            box-shadow: 0px 0px 0px black;
+        }
+}
+
+.vision-button:hover {
+    box-shadow: 0px 0px;
+    transform: translateY(5px);
+    color: white;
+}
 
 
 

@@ -10,13 +10,13 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div>
-            <ImageSlider />
+            {/* <ImageSlider /> */}
 
-            <div className='banner_top'>
+            {/* <div className='banner_top'>
                 <span className='b-t-h'>SAMARPAN</span>
                 <span className='b-t-c'>EK SOCH, EK VISWAS</span>
                 <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>About Us</Link>
-            </div>
+            </div> */}
 
             <div className='social-msg'>
                 <h1>ALL CHILDREN DESERVE AN OPPORTUNITY TO SUCCEED IN LIFE</h1>
@@ -24,10 +24,10 @@ const Home = () => {
                     Marching forward with the thirst of providing free primary education to the needy children of nearby areas.</p>
             </div>
 
-            <Mission bgcolor="#882601" />
-            <Vision bgcolor="#062f4f" />
+            <Mission bgcolor="white" />
+            <Vision bgcolor="white" />
 
-            <Ourevents/>
+            {/* <Ourevents/> */}
         </div>
     )
 }

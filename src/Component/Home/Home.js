@@ -14,13 +14,14 @@ const Home = () => {
 
             <div className='banner_top'>
                 <span className='b-t-h'>SAMARPAN</span>
-                <span className='b-t-c'>EK SOCH, EK VISWAAS</span>
-                <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>OUR VISION</Link>
+                <span className='b-t-c'>EK SOCH, EK VISWAS</span>
+                <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>About Us</Link>
             </div>
 
             <div className='social-msg'>
-                <h1>What is Lorem Ipsum?</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h1>ALL CHILDREN DESERVE AN OPPORTUNITY TO SUCCEED IN LIFE</h1>
+                <p>An NGO of Haldia Institute of Technology.<br></br>
+                    Marching forward with the thirst of providing free primary education to the needy children of nearby areas.</p>
             </div>
 
             <Mission bgcolor="#882601" />

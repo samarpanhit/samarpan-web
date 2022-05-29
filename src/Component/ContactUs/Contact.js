@@ -49,11 +49,12 @@ const Contact = () => {
           <a href='https://www.facebook.com/samarpanathith' target="_blank"><p>@samarpanathith</p></a>
         </div>
         <div className="contact-box col-lg-4">
-          <a href="#">
+          <a href="https://www.linkedin.com/company/samarpanhit">
             <i className="fa-brands fa-linkedin fa-customise contact-icon"/>
           </a>
           <h3>LINKEDIN</h3>
-          <p>@samarpan_hit</p>
+          <a href='https://www.linkedin.com/company/samarpanhit'>
+          <p>@samarpanhit</p></a>
         </div>
       </div>
       <div className="row">

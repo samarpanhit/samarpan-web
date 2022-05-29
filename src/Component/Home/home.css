@@ -3,6 +3,16 @@
     height: 100vh;
 }
 
+@font-face {
+    font-family: 'Samarpan';
+    src: local('samarpan'), url(./../../assets/fonts/samarpan.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'eksochekviswas';
+    src: local('eksochekviswas'), url(./../../assets/fonts/eksochekviswas.ttf) format('truetype');
+  }
+
 @media (max-device-width: 992px) {
     .carousel-inner {
         height: 100vh;
@@ -39,6 +49,7 @@
     color: white;
     top: 55vh;
     margin-left: 12vw;
+    font-family: Samarpan;
 }
 @media (max-device-width: 425px) {
     .banner_top {
@@ -49,12 +60,12 @@
 
 .banner_top .b-t-h {
     font-size: 8vw;
-    font-family: Permanent Marker, cursive;
+    font-family: Samarpan;
 }
 
 .banner_top .b-t-c {
     font-size: 1.2rem;
-    font-family: Dancing Script, cursive;
+    font-family: eksochekviswas, italic;
 }
 
 @media (max-device-width: 768px) {

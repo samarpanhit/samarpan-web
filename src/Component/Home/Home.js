@@ -14,8 +14,8 @@ const Home = () => {
 
             <div className='banner_top'>
                 <span className='b-t-h'>SAMARPAN</span>
-                <span className='b-t-c'>EK SOCH, EK VISWAAS</span>
-                <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>OUR VISION</Link>
+                <span className='b-t-c'>EK SOCH, EK VISWAS</span>
+                <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>About Us</Link>
             </div>
 
             <div className='social-msg'>

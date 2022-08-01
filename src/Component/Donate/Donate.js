@@ -12,6 +12,7 @@ const Donate = () => {
         <a href='https://forms.gle/qBr9Qo2rU3Y1ctEZA' target='_blank'>
           <button type="button" id='dn-mod-btn' className="btn DON-BTN" data-bs-toggle="modal" data-bs-target="#donatemodal">
             MAKE DONATION
+            
           </button>
         </a>
       </div>

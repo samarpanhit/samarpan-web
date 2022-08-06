@@ -89,13 +89,13 @@ const Footer = () => {
                 <div className="second-item">
                     <h1>Reach Us</h1>
                     <div className="reach-us">
-                        <span ><a href='https://www.facebook.com/samarpanathith' target='_blank'>
+                        <span ><a href='https://www.facebook.com/samarpanathith' target='_blank' rel="noreferrer">
                             <i className="fa-brands fa-facebook-f fa-2x"/>
                         </a></span>
-                        <span style={{ marginLeft: "25px" }}><a href='https://www.instagram.com/samarpan_hit/' target='_blank'>
+                        <span style={{ marginLeft: "25px" }}><a href='https://www.instagram.com/samarpan_hit/' target='_blank' rel="noreferrer">
                             <i className="fa-brands fa-instagram fa-2x" target='_blank'></i>
                         </a></span>
-                        <span style={{ marginLeft: "25px" }}><a href='https://www.linkedin.com/company/samarpanhit' target='_blank'>
+                        <span style={{ marginLeft: "25px" }}><a href='https://www.linkedin.com/company/samarpanhit' target='_blank' rel="noreferrer">
                             <i className="fa-brands fa-linkedin fa-2x" target='_blank'></i>
                         </a></span>
                         

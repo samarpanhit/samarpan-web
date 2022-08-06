@@ -1,32 +1,77 @@
 [
     {
         "id": "c-1",
-        "name": "Ashutosh Tiwari",
-        "role": "Joint Head"
+        "name": "Anurag Jha",
+        "role": "Student Representative"
     },
     {
         "id": "c-2",
-        "name": "Mrinmoy Sarkar",
-        "role": "Joint Head"
+        "name": "Biwesh Kumar",
+        "role": "Co-Student representative"
     },
     {
         "id": "c-3",
-        "name": "Pankaj Kumar",
-        "role": "Volunteering Lead"
+        "name": "Protik Sarkar",
+        "role": "Co-Student Representative"
     },
     {
         "id": "c-4",
-        "name": "Ankita Biswas",
-        "role": "Mentoring Lead"
+        "name": "Roushan Kumar",
+        "role": "Volunteering  Head"
     },
     {
         "id": "c-5",
-        "name": "Jayeeta Gorai",
-        "role": "Creative & Cultural Lead"
+        "name": "Poulomi Majumder",
+        "role": "Teaching  Head"
     },
     {
         "id": "c-6",
-        "name": "Shubham Anand",
-        "role": "Social Media & Promotion Lead"
+        "name": "Oyshee Goswami",
+        "role": "Teaching  Head"
+    },
+    {
+        "id": "c-7",
+        "name": "Kiran Kumari",
+        "role": "Mentoring Head"
+    },
+    {
+        "id": "c-8",
+        "name": "Priya Raj",
+        "role": "Mentoring Head"
+    },
+    {
+        "id": "c-9",
+        "name": "Pathoja Maity",
+        "role": "Cultural Head"
+    },
+    {
+        "id": "c-10",
+        "name": "Ayush Tiwari",
+        "role": "Creative Head"
+    },
+    {
+        "id": "c-11",
+        "name": "Eshna Dutta",
+        "role": "Social Media Head"
+    },
+    {
+        "id": "c-12",
+        "name": "Souradipto Choudhuri",
+        "role": "Web Development Head"
+    },
+    {
+        "id": "c-13",
+        "name": "Bishwajit Nandi",
+        "role": "Treasurer"
+    },
+    {
+        "id": "c-14",
+        "name": "Abhay Saraf",
+        "role": "Promotion Head"
+    },
+    {
+        "id": "c-15",
+        "name": "Shushant Kumar",
+        "role": "Promotion Head"
     }
 ]

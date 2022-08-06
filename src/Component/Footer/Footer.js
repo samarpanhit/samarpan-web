@@ -26,7 +26,7 @@ const Footer = () => {
                             top:
                                 10
                         }} delayedCall>
-                            <CountUp start={0} end={didViewCountUp ? 342 : 0} duration={3} />
+                            <CountUp start={0} end={didViewCountUp ? 97 : 0} duration={3} />
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>
@@ -38,7 +38,7 @@ const Footer = () => {
                             top:
                                 10
                         }} delayedCall>
-                            <CountUp start={0} end={didViewCountUp ? 342 : 0} duration={3} />
+                            <CountUp start={0} end={didViewCountUp ? 101 : 0} duration={3} />
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>
@@ -50,7 +50,7 @@ const Footer = () => {
                             top:
                                 10
                         }} delayedCall>
-                            <CountUp start={0} end={didViewCountUp ? 342 : 0} duration={3} />
+                            <CountUp start={0} end={didViewCountUp ? 35 : 0} duration={3} />
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>
@@ -80,8 +80,9 @@ const Footer = () => {
 
                 <div className="second-item">
                     <h1>Contact Us</h1>
-                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+919002030141'> Mrinmoy: +919002030141</a></p>
-                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+918004333702'> Ashutosh: +918004333702</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+918621893990'> Anurag Jha: +918621893990</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+919155633724'> Biwesh Kumar: +919155633724</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+918759377656'> Protik Sarkar: +918759377656</a></p>
                     <p><i className="fa-solid fa-envelope fa-customise"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
                 </div>
 

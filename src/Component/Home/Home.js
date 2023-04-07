@@ -10,13 +10,13 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div>
-            {/* <ImageSlider /> */}
+            <ImageSlider />
 
-            {/* <div className='banner_top'>
+            <div className='banner_top'>
                 <span className='b-t-h'>SAMARPAN</span>
                 <span className='b-t-c'>EK SOCH, EK VISWAS</span>
                 <Link to='/about' className='vision_btn_banner' style={{textDecoration: "none"}}>About Us</Link>
-            </div> */}
+            </div>
 
             <div className='social-msg'>
                 <h1>ALL CHILDREN DESERVE AN OPPORTUNITY TO SUCCEED IN LIFE</h1>
@@ -27,7 +27,7 @@ const Home = () => {
             <Mission bgcolor="white" />
             <Vision bgcolor="white" />
 
-            {/* <Ourevents/> */}
+            <Ourevents/>
         </div>
     )
 }

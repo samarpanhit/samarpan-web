@@ -1,5 +1,7 @@
 import React from 'react'
 import './home.css'
+import imagelink from '../../Database/Galery/image_slider.json'
+
 import img1 from '../../assets/Home/slider/1.jpg'
 import img2 from '../../assets/Home/slider/2.jpg'
 import img3 from '../../assets/Home/slider/3.jpg'
@@ -7,15 +9,20 @@ import img4 from '../../assets/Home/slider/4.jpg'
 import img5 from '../../assets/Home/slider/5.jpg'
 import img6 from '../../assets/Home/slider/6.jpg'
 
+
+console.log(imagelink);
+
 const ImageSlider = () => {
     return (
         <div className='container-fluid p-0'>
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
@@ -26,9 +33,9 @@ const ImageSlider = () => {
                         aria-label="Slide 6"></button>
                 </div>
                 <div className="carousel-inner">
-                    <div className="carousel-item active" style={{ backgroundImage: "url(" + img1 + ")" }}>
-                        <div className='overlay'></div>
-                    </div>
+                        <div className="carousel-item active" style={{ backgroundImage: "url(" + img1 + ")" }}>
+                            <div className='overlay'></div>
+                        </div>
                     <div className="carousel-item" style={{ backgroundImage: "url(" + img2 + ")" }}>
                         <div className='overlay'></div>
                     </div>

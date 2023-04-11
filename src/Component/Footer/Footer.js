@@ -26,7 +26,7 @@ const Footer = () => {
                             top:
                                 10
                         }} delayedCall>
-                            <CountUp start={0} end={didViewCountUp ? 97 : 0} duration={3} />
+                            <CountUp start={0} end={didViewCountUp ? 153 : 0} duration={3} />
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>
@@ -38,7 +38,7 @@ const Footer = () => {
                             top:
                                 10
                         }} delayedCall>
-                            <CountUp start={0} end={didViewCountUp ? 101 : 0} duration={3} />
+                            <CountUp start={0} end={didViewCountUp ? 160 : 0} duration={3} />
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>
@@ -50,7 +50,7 @@ const Footer = () => {
                             top:
                                 10
                         }} delayedCall>
-                            <CountUp start={0} end={didViewCountUp ? 35 : 0} duration={3} />
+                            <CountUp start={0} end={didViewCountUp ? 31 : 0} duration={3} />
                         </VisibilitySensor>
                     </span>
                     <span>Total</span>

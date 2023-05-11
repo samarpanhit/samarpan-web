@@ -12,21 +12,23 @@ import Footer from './Component/Footer/Footer';
 import Donate from './Component/Donate/Donate';
 import Events from './Component/OurEvents/Events';
 import EventsFullPage from './Component/Home/OurEvents/EventsFullPage';
+import Alumni from './Component/Alumni/Alumni';
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path='/'>
-          <Route path="/" element={<Home />} />
-          <Route path="/:id" element={<EventsFullPage />} />
-          <Route path="/event" element={<Events />} />
+        <Route path='/'element={<Home />} />
+        <Route path='/event'>
+          <Route index element={<Events />} />
+          <Route path=":id" element={<EventsFullPage />} />
           <Route path="/event/:id" element={<EventsFullPage />} />
         </Route>
         <Route path="/about" element={<About />} />
         <Route path="/galery" element={<Galery />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/alumni" element={<Alumni />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/donate" element={<Donate />} />
 

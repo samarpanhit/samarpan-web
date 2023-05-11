@@ -16,14 +16,7 @@ const Vision = (props) => {
   return (
       <div className="container-fluid">
           <div className="row">
-              <div className="col-lg-6 vision-text" style={{ background: bgcolor }}>
-                  {/* <h1>OUR VISION</h1> */}
-                  <h1>ABOUT US</h1>
-                  {/* <p>Samarpan ensures that every child is given the right to learn and prosper</p> */}
-                  <p>SAMARPAN is a Non-government organisation founded in 2014 by Omprakash Jha. It is under the college of Haldia Institute of Technology.
-                      SAMARPAN "Ek Soch Ek Viswaas" focuses on the education of children having a lower economic background. Our goal is to provide a better environment for studies and the upbringing of underprivileged children.</p>
-                  <Link to='/about' onClick={handleVision} className="vision-button" style={{ background: bgcolor, textDecoration: 'none' }}>READ MORE</Link>
-              </div>
+              
               <div className="col-lg-6 p-0 vision-carousel">
                   {/* carousel */}
                   <div id="carouselvisionFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -45,6 +38,14 @@ const Vision = (props) => {
                       </button>
                   </div>
               </div> 
+              <div className="col-lg-6 vision-text" style={{ background: bgcolor }}>
+                  {/* <h1>OUR VISION</h1> */}
+                  <h1>ABOUT US</h1>
+                  {/* <p>Samarpan ensures that every child is given the right to learn and prosper</p> */}
+                  <p>SAMARPAN is a Non-government organisation founded in 2014 by Omprakash Jha. It is under the college of Haldia Institute of Technology.
+                      SAMARPAN "Ek Soch Ek Viswaas" focuses on the education of children having a lower economic background. Our goal is to provide a better environment for studies and the upbringing of underprivileged children.</p>
+                  <Link to='/about' onClick={handleVision} className="mission-button" style={{  textDecoration: 'none' }}>READ MORE</Link>
+              </div>
           </div>
       </div>
   )

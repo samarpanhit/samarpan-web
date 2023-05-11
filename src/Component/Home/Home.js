@@ -25,7 +25,7 @@ const Home = () => {
             </div>
 
             <Mission bgcolor="white" />
-            <Vision bgcolor="white" />
+            {/* <Vision bgcolor="white" /> */}
 
             <Ourevents/>
         </div>

@@ -19,11 +19,11 @@ const Mission = (props) => {
                     {/* <h1>OUR MISSION</h1> */}
                     <h1>Gallery</h1>
                     {/* <p>Samarpan ensures that every child is given the right to learn and prosper</p> */}
-                    {/* <Link onClick={handleMision} className="mission-button" style={{ background: bgcolor, textDecoration:'none' }} to='/about'>READ MORE</Link> */}
+                    <Link onClick={handleMision} className="mission-button" style={{ textDecoration:'none' }} to='/galery'>VIEW ALL</Link>
                 </div>
                 <div className="col-lg-6 p-0 mission-carousel">
                     {/* carousel */}
-                    <div id="carouselmissionFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div id="carouselmissionFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1500" data-bs-pause="hover">
                         <div className="carousel-inner-mission">
                             <div className="carousel-item active" style={{ backgroundImage: "url(" + img1 + ")" }}>
                             </div>

@@ -177,6 +177,9 @@ footer {
 .fa-brands{
     color: #ffdd12;;
 }
+.fa-brands:hover{
+    color: red;;
+}
 
 .copyright {
     margin-top: 25px;

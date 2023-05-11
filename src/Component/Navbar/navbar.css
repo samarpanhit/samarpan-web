@@ -31,7 +31,8 @@
 .a-c,
 .b-c {
   background: red;
-  color: white;
+  /* background: black; */
+  color: black;
   font-weight: 500;
   padding: 2vh;
   border-radius: 10px;

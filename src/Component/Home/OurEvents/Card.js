@@ -23,9 +23,11 @@ const Card = (props) => {
         
         <p className='event-discrpt'><Readmore >{contents}</Readmore></p>
       </div>
-      <Link to={props.id}><button className='read-more-btn' onClick={scrollToTop}>Read more</button></Link>
+      <Link to={`${props.id}`}>  <button className='read-more-btn' onClick={scrollToTop}>Read more</button></Link>
     </div>
   )
 }
 
 export default Card
+
+//    

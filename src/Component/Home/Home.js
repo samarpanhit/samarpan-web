@@ -24,7 +24,7 @@ const Home = () => {
                     Marching forward with the thirst of providing free primary education to the needy children of nearby areas.</p>
             </div>
 
-            <Mission bgcolor="white" />
+            <Mission />
             {/* <Vision bgcolor="white" /> */}
 
             <Ourevents/>

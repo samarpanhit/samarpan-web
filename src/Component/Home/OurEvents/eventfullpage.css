@@ -12,6 +12,8 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    
 }
 
 .event-date {
@@ -42,4 +44,30 @@
     .event-data {
         font-size: 4vw;
     }
+}
+
+/* ------------  IMAGE SLIDER  --------------- */
+
+.Event .image-gallery{
+    width: fit-content;
+    height: 60vh;
+}
+
+.Event .image-gallery .image-gallery-content {
+    height:100% !important;
+}
+.image-gallery-slide-wrapper{
+    height:100% !important;
+}
+.image-gallery-swipe {
+    height:100% !important;
+}
+.image-gallery-slides{
+    height:100% !important;
+}
+.image-gallery-content .image-gallery-slide .image-gallery-image{
+    height: 60vh;
+}
+.fullscreen .image-gallery-slide .image-gallery-image{
+    height: 100vh;
 }

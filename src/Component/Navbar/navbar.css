@@ -3,6 +3,9 @@
   font-size: 2rem;
   font-weight: bold;
 }
+.navbar{
+  padding: 0;
+}
 
 .nav-item {
   padding: 0 18px;
@@ -30,16 +33,15 @@
 }
 .a-c,
 .b-c {
-  background: red;
-  /* background: black; */
-  color: black;
+  transition-duration: 0.3s;
+  background: #ffdd12;
   font-weight: 500;
   padding: 2vh;
   border-radius: 10px;
   min-width: 9vw;
   display: flex;
   justify-content: center;
-  border: 1px solid rgb(255, 57, 57);
+  border: 2px solid #bda30f;
   font-size: 1.2vw;
   font-family: 'Montserrat', sans-serif;
 }
@@ -52,8 +54,9 @@
 }
 
 .b-c:hover{
-  background: rgb(198, 1, 1);
-  transform: scaleX(1.1);
+  background: #bda30f;
+  color: white;
+  /* transform: scaleX(1.1); */
 }
 .b-c:active{
   background: rgb(88, 0, 0);
@@ -72,7 +75,7 @@
         min-width: 15vw;
           padding: 1vh;
           font-size: x-large;
-          margin-left: 39vw;
+          margin-left: 30vw;
   }
     .a-c:active {
       background: rgb(88, 0, 0);
@@ -87,5 +90,14 @@
   }
   #hambarger{
     margin-right: 3vw;
+    margin-left: 3vw;
   }
+}
+.navbar-toggler{
+  font-size: 2.5rem;
+}
+@media(max-device-width:768px){
+  .navbar-toggler {
+      font-size: 1.5rem;
+    }
 }

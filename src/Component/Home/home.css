@@ -92,6 +92,7 @@
 }
 
 .vision_btn_banner {
+  transition-duration: 0.7s;
     text-align: center;
     border: 1px solid white;
     background: rgb(0, 0, 0, 0.1);
@@ -116,7 +117,6 @@
     background: #ffdd12;
 
 
-    transform: scaleX(1.09);
 }
 
 @media (max-device-width: 992px) {
@@ -154,8 +154,9 @@
     justify-content: center;
     height: 80vh;
     text-align: center;
-    color: black;
+    color: #ffdd12;
     font-size: 1.5rem;
+    background-color: #262626;
 }
 
 @media (max-device-width: 992px) {
@@ -168,12 +169,13 @@
 @media (max-device-width: 768px) {
     .mission-text {
         font-size: 1.5rem;
+    height: 40vh;
     }
 }
 
 @media (max-device-width: 425px) {
     .mission-text {
-        display: none;
+        /* display: none; */
         font-size: 2.5rem;
         justify-content: space-evenly;
     }
@@ -213,6 +215,7 @@
 
 
 .mission-button {
+  transition-duration: 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,7 +224,7 @@
     margin-top: 25px;
     border: 2px solid white;
     border-radius: 10px;
-    color: black;
+    color: #ffdd12;
     box-shadow: 1px 5px 10px black;
     font-family: 'Bree Serif', serif;
 }
@@ -402,7 +405,8 @@
 
 .event-card {
     border-radius: 10px;
-    height: 65vh;
+    /* height: 65vh; */
+    height: fit-content;
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -416,7 +420,6 @@
 
 @media (max-device-width: 425px) {
     .event-card {
-        height: 65vh;
         width: 59vh;
     }
 }
@@ -425,6 +428,13 @@
     height: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.upper img{
+    /* height: 150px; */
+    aspect-ratio: 16/9;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -450,7 +460,7 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.read-more-btn {
+ .read-more-btn {
     width: 8vw;
     height: 5vh;
     float: left;
@@ -463,6 +473,9 @@
     margin-bottom: 1vh;
     font-size: 1.1vw;
     font-family: 'Bree Serif', serif;
+}
+.read-more-btn:hover{
+    background: rgb(0, 0, 79);
 }
 
 @media (max-device-width: 768px) {
@@ -485,6 +498,10 @@
     font-size: 1vw;
     color: rgb(83, 83, 83);
     font-weight: bold;
+}
+
+.event-content a{
+    width: fit-content;
 }
 
 .event-button {

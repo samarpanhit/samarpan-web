@@ -406,7 +406,8 @@
 .event-card {
     border-radius: 10px;
     /* height: 65vh; */
-    height: fit-content;
+    min-height: fit-content;
+    max-height: 100%;
     width: 30vw;
     display: flex;
     flex-direction: column;

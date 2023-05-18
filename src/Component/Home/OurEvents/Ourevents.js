@@ -16,7 +16,6 @@ const Ourevents = () => {
   }
   useEffect(() => {
     getData();
-    console.log(data);
   }, [])
 
   function handleClick() {

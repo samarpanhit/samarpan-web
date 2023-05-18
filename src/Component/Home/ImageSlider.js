@@ -10,8 +10,6 @@ import img5 from '../../assets/Home/slider/5.jpg'
 import img6 from '../../assets/Home/slider/6.jpg'
 
 
-console.log(imagelink);
-
 const ImageSlider = () => {
     return (
         <div className='container-fluid p-0'>

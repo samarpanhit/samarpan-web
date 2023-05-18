@@ -1,9 +1,10 @@
 .alumni {
-    height: fit-content;
+    /* height: fit-content; */
+    min-height: 60vh;
     max-width: 100vw;
     padding: 10px 20px;
-        display: grid;
-    grid-template-rows: max-content;   
+    display: grid;
+    grid-template-rows: max-content;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     row-gap: 30px;
     column-gap: 3%;
@@ -12,15 +13,22 @@
 @media(max-device-width:768px) {
     .alumni {
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        }
-}
-@media(max-device-width:425px) {
-    .alumni {
-            grid-template-columns: 1fr;
-            justify-items: center;
-        }
+    }
 }
 
+@media(max-device-width:425px) {
+    .alumni {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+.loader{
+    min-height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ----  CARD ----- */
 .alumni .card {
@@ -32,9 +40,10 @@
     text-align: center;
     padding: 5px;
 }
+
 @media(max-device-width:425px) {
     .alumni .card {
-            width: 80%;
+        width: 80%;
     }
 }
 
@@ -65,9 +74,10 @@
     .alumni .card {
         font-size: 35px;
     }
-        .alumni .card .name {
-            padding: 15px 50px 0px 50px;
-        }
+
+    .alumni .card .name {
+        padding: 15px 50px 0px 50px;
+    }
 }
 
 @media(max-device-width:425px) {

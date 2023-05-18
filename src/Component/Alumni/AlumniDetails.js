@@ -39,6 +39,7 @@ const AlumniDetails = () => {
             
             {
               !data ?
+              <div className='loader'>
                 <RotatingLines
                   strokeColor="grey"
                   strokeWidth="5"
@@ -46,6 +47,7 @@ const AlumniDetails = () => {
                   width="96"
                   visible={true}
                 />
+                </div>
                 :
                 !data.length ?
                 "No data found": 

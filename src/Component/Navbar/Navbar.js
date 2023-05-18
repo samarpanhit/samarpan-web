@@ -47,7 +47,7 @@ const Navbar = () => {
                   <Link className="nav-link" to='/team' onClick={handleClick}>TEAM </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to='/alumni' onClick={handleClick}>Alumni</Link>
+                  <Link className="nav-link" to='/alumni' onClick={handleClick}>ALUMNI</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to='/contact-us' onClick={handleClick}>CONTACT US </Link>

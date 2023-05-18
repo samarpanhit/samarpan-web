@@ -34,6 +34,9 @@
 .contact-box a {
     text-decoration: none;
 }
+.contact-box a h3:hover{
+    color: #ffdd12;
+}
 
 .contact-box a .contact-icon {
     color: #212529;

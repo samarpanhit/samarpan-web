@@ -11,6 +11,7 @@ const Mission = () => {
             behavior: 'auto'
         });
     }
+    console.log("hellow");
     return (
         <div className="container-fluid">
             <div className="row">

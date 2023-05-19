@@ -15,6 +15,7 @@ const Ourevents = () => {
     setImage(fdata.image);
   }
   useEffect(() => {
+    console.log("done");
     getData();
   }, [])
 
@@ -25,6 +26,8 @@ const Ourevents = () => {
       behavior: 'auto'
     });
   }
+
+
   return (
     <div className='ourevents'>
       <h1>OUR EVENTS</h1>

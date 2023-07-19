@@ -10,12 +10,10 @@ import img5 from '../../assets/Home/slider/5.jpg'
 import img6 from '../../assets/Home/slider/6.jpg'
 
 
-console.log(imagelink);
-
 const ImageSlider = () => {
     return (
         <div className='container-fluid p-0'>
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
+            <div id="carouselExampleIndicators" className="carousel slide lazy-load" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"
                         aria-current="true" aria-label="Slide 1"></button>

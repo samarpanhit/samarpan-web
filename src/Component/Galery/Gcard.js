@@ -7,20 +7,13 @@ import "react-image-gallery/styles/css/image-gallery.css"
 const Gcard = (props) => {
     const [images, setimages] = useState([])
 
-    function handlePush(id,des){
-        const obj = 
-        {
-            "original": `/Galery/${index}/${id}.jpg`,
-            "description": des
-        } 
-        images.push(obj)
-    }
-
-    const { title, index, sub } = props
+    const { title, sub } = props
 
     {
         sub.map((item, i) =>
-            handlePush(i+1,item.description)
+            // handlePush(i+1,item.description)
+            images.push(item)
+
         )
     }
     // console.log(images);

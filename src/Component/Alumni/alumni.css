@@ -1,3 +1,148 @@
-.alumni{
-    color: red;
+.alumni {
+    /* height: fit-content; */
+    min-height: 60vh;
+    max-width: 100vw;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    row-gap: 30px;
+    column-gap: 3%;
+}
+
+@media(max-device-width:768px) {
+    .alumni {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+}
+
+@media(max-device-width:425px) {
+    .alumni {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+.loader{
+    min-height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----  CARD ----- */
+.alumni .card {
+    height: fit-content;
+    background-color: #333333;
+    width: 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media(max-device-width:425px) {
+    .alumni .card {
+        width: 80%;
+    }
+}
+
+.alumni .card .name {
+    color: #ffdd12;
+    font-weight: 600;
+    padding: 15px 75px 0px 75px;
+}
+
+.alumni .card a {
+    font-size: 20px;
+    text-decoration: none;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.alumni .card .year {
+    text-align: right;
+    font-size: 16px;
+    /* background-color: blue; */
+    width: 100%;
+    font-weight: 500;
+    color: rgb(113, 113, 113);
+
+}
+
+@media(max-device-width:768px) {
+    .alumni .card {
+        font-size: 35px;
+    }
+
+    .alumni .card .name {
+        padding: 15px 50px 0px 50px;
+    }
+}
+
+@media(max-device-width:425px) {
+    .alumni .card {
+        font-size: 45px;
+    }
+
+    .alumni .card .name {
+        padding: 15px 120px 0px 120px;
+    }
+
+    .alumni .card a {
+        font-size: 40px;
+    }
+
+    .alumni .card .year {
+        font-size: 30px;
+    }
+}
+
+
+
+/* ------------------   Alumni Details  -------------------- */
+.AlumniContainer {
+    /* overflow: scroll; */
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: #333333;
+    padding: 25px;
+    font-size: 25px;
+    color: rgba(255, 221, 18, 1);
+}
+
+.container .year {
+    font-size: 45px;
+}
+
+.main-table {
+    margin-top: 20px;
+}
+
+.main-table::-webkit-scrollbar {
+    display: none;
+}
+
+.main-table .table thead {
+    color: black;
+    background-color: rgba(255, 221, 18, 1);
+    position: sticky;
+    top: 0;
+}
+
+.main-table .table tbody {
+    color: white;
+
+}
+
+.main-table table tr:nth-child(even) {
+    background-color: #515151;
+}
+
+@media(max-device-width:768px) {}
+
+@media(max-device-width:425px) {
+    .main-table {
+        font-size: 45px;
+    }
 }

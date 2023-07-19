@@ -4,18 +4,18 @@ import img1 from '../../../assets/Home/Mission/1.jpg'
 import img2 from '../../../assets/Home/Mission/2.jpg'
 import img3 from '../../../assets/Home/Mission/3.jpg'
 
-const Mission = (props) => {
+const Mission = () => {
     function handleMision() {
         window.scrollTo({
             top: 0,
             behavior: 'auto'
         });
     }
-    const {bgcolor} = props
+    console.log("hellow");
     return (
         <div className="container-fluid">
             <div className="row">
-                <div className="col-lg-6 mission-text" style={{ background: bgcolor }}>
+                <div className="col-lg-6 mission-text" >
                     {/* <h1>OUR MISSION</h1> */}
                     <h1>Gallery</h1>
                     {/* <p>Samarpan ensures that every child is given the right to learn and prosper</p> */}

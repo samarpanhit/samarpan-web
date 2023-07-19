@@ -27,7 +27,7 @@ const Footer = () => {
         <footer>
             < div className="first" >
                 {numberOfMember.map((item, i) =>
-                    <div className="first-item">
+                    <div className="first-item" key={i} >
                         <span className='f-i-n'>
                             <VisibilitySensor onChange={onVisibilityChange} offset={{
                                 top:
@@ -88,7 +88,7 @@ const Footer = () => {
                             </a>
                         </span>
                     </div>
-                    <p className="copyright">Copyright &copy; 2022 by Samarpan</p>
+                    <p className="copyright">Copyright &copy; 2023 by Samarpan</p>
                 </div>
             </div>
         </footer>

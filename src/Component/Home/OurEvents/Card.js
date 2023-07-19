@@ -15,7 +15,8 @@ const Card = ({ title, date, contents, id, image }) => {
     <div className='event-card'>
       {/* <div className='upper' style={{backgroundImage: 'url('+temp+')'}}> */}
       <div className='upper'>
-        <img src={`${image[0].original}`}></img>
+        {console.log(image[0].original)}
+        <img src={`${image[0].original}`} alt="eventImage"></img>
       </div>
       <div className='lower'>
         <h3>{title}</h3>

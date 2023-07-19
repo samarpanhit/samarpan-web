@@ -15,7 +15,6 @@ const Ourevents = () => {
     setImage(fdata.image);
   }
   useEffect(() => {
-    console.log("done");
     getData();
   }, [])
 

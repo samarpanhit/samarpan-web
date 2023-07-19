@@ -38,6 +38,7 @@ const EventsFullPage = () => {
             lazyLoad={true}
           />
           <div className='event-info'>
+            check
             <p className='event-date'>{data.date}</p>
             <h3 className='event-title'>{data.title}</h3>
             {/* <p className='event-data'>{data.contents}</p> */}

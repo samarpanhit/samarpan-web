@@ -1,77 +1,82 @@
 [
     {
-        "id": "c-1",
-        "name": "Anurag Jha",
+        "id": "t-1",
+        "name": "Om Prakash Jha",
+        "role": "Founder & Mentor"
+    },
+    {
+        "id": "t-2",
+        "name": "Subhajit Das",
+        "role": "Advisor"
+    },
+    {
+        "id": "t-3",
+        "name": "Aniket Raj",
+        "role": "Student Representative"
+    }
+    ,{
+        "id": "t-4",
+        "name": "Arusree Mahapatra",
         "role": "Student Representative"
     },
     {
-        "id": "c-2",
-        "name": "Biwesh Kumar",
-        "role": "Co-Student representative"
+        "id": "t-5",
+        "name": "Bidhan Kumar",
+        "role": "PR & MANAGEMENT LEAD"
     },
     {
-        "id": "c-3",
-        "name": "Protik Sarkar",
-        "role": "Co-Student Representative"
+        "id": "t-6",
+        "name": "Shivam Kumar",
+        "role": "PR & MANAGEMENT LEAD"
     },
     {
-        "id": "c-4",
-        "name": "Roushan Kumar",
-        "role": "Volunteering  Head"
-    },
-    {
-        "id": "c-5",
-        "name": "Poulomi Majumder",
+        "id": "t-7",
+        "name": "Sayan Samanta",
         "role": "Teaching  Head"
     },
     {
-        "id": "c-6",
-        "name": "Oyshee Goswami",
+        "id": "t-8",
+        "name": "Pritam Manna",
         "role": "Teaching  Head"
     },
     {
-        "id": "c-7",
-        "name": "Kiran Kumari",
-        "role": "Mentoring Head"
+        "id": "t-4",
+        "name": "Arusree Mahapatra",
+        "role": "Creative  Head(CULTURAL)"
     },
     {
-        "id": "c-8",
-        "name": "Priya Raj",
-        "role": "Mentoring Head"
+        "id": "t-10",
+        "name": "Sohan Adak",
+        "role": "Creative  Head(GRAPHICS)"
     },
     {
-        "id": "c-9",
-        "name": "Pathoja Maity",
-        "role": "Cultural Head"
+        "id": "t-11",
+        "name": "Riya Kumari",
+        "role": "Mentoring & counselling lead"
     },
     {
-        "id": "c-10",
-        "name": "Ayush Tiwari",
-        "role": "Creative Head"
+        "id": "t-12",
+        "name": "Sumit Talukdar",
+        "role": "counselling lead"
     },
     {
-        "id": "c-11",
-        "name": "Eshna Dutta",
-        "role": "Social Media Head"
+        "id": "t-13",
+        "name": "Divyanshu Kashyap",
+        "role": "Social Media Lead"
     },
     {
-        "id": "c-12",
-        "name": "Souradipto Choudhuri",
+        "id": "t-12",
+        "name": "Sumit Talukdar",
+        "role": "Traesurer"
+    },
+    {
+        "id": "t-15",
+        "name": "Biswajit Debnath",
         "role": "Web Development Head"
     },
     {
-        "id": "c-13",
-        "name": "Bishwajit Nandi",
-        "role": "Treasurer"
-    },
-    {
-        "id": "c-14",
-        "name": "Abhay Saraf",
-        "role": "Promotion Head"
-    },
-    {
-        "id": "c-15",
-        "name": "Shushant Kumar",
-        "role": "Promotion Head"
+        "id": "t-16",
+        "name": "Sayk Ghosh",
+        "role": "Photography Head"
     }
 ]

@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+<h1 align="center">
+Samarpan Website
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<!-- ceomment -->
-## Available Scripts
+<h2 align="center">
+Welcome to the Samarpan Website Repository!
+</h2>
 
-In the project directory, you can run:
+<div align="center" style="margin-bottom: 50px;">
+  <img src="https://i.postimg.cc/MK0HGXsY/imgd.jpg" width="800" />
+</div>
+<br><br>
+This repository contains the source code and Assets of our organization's website, built using React.js. Below, you will find an overview of the project, its objectives, and the technologies used.
 
-### `npm start`
+## About Us :star2:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Samarpan is an organization that believes in the transformative power of education. Education not only enables individuals to secure their livelihoods but also enhances their awareness about various issues, social behavior. Samarpan seeks to provide educational opportunities to underprivileged children, helping them build a brighter future.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stack ♨️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Samarpan website is developed using the following technology:
 
-### `npm run build`
+📑  |  🧩
+------------- | -------------
+_Frontend_  |  HTML, CSS, JAVASCRIPT, REACT.JS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact Us 📞
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to reach out to us with any thoughts that come to mind.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📧 **Email**: <a href="mailto:hithaldia.samarpan@gmail.com">hithaldia.samarpan@gmail.com</a>
 
-### `npm run eject`
+Whether you have questions, ideas, or suggestions, we're eager to engage in meaningful conversations. Your insights are valuable in our ongoing mission to create positive change. If you come across any issues or have ideas to enhance the website, please don't hesitate to create an issue right here in this repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<h3 align="center">
+  Please give this repo a ⭐ it really helps us!
+</h3>
+<h3 align="center">
+  <strong>** Team Samarpan</strong>
+</h3>

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import image1 from '../../assets/logo.jpg'
+import image1 from '../../assets/logo.png'
 import Alert from './Alert'
 import './navbar.css'
 

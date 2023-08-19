@@ -1,22 +1,30 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Events_db from '../../../Database/Events_db.json'
-
+import { useSelector, useDispatch } from 'react-redux'
+import { fetchEvent } from '../../../store/eventSlice'
 import Card from './Card'
+
+
 const Ourevents = () => {
+  const dispatch = useDispatch()
+  const { data:test } = useSelector((state) => state.event);
+
+
   const [data, setData] = useState()
   const [image, setImage] = useState()
 
-  const url = 'https://script.google.com/macros/s/AKfycbzDoAKssNY1qVOIM262kKP0q30Jy9x0J1vOnW9So8Xvvas6hVVDmg36hIZBzoaVFnrL5w/exec'
   async function getData() {
-    var fdata = await fetch(url);
-    fdata = await fdata.json();
-    setData(fdata.data);
-    setImage(fdata.image);
+    setData(test.data);
+    setImage(test.image);
   }
+
+  useEffect(() => {
+    dispatch(fetchEvent())
+  },[])
+
   useEffect(() => {
     getData();
-  }, [])
+  }, [test])
 
   function handleClick() {
     window.scrollTo({

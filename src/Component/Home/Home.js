@@ -8,9 +8,6 @@ import FallbackRender from '../ErrorBoundary';
 const Mission = lazy(() => import("./Mission/Mission"));
 const ImageSlider = lazy(() => import("./ImageSlider"));
 const Ourevents = lazy(() => import("./OurEvents/Ourevents"));
-// import Mission from './Mission/Mission'
-// import ImageSlider from './ImageSlider'
-// import Ourevents from './OurEvents/Ourevents'
 
 const Home = () => {
     return (
@@ -23,6 +20,7 @@ const Home = () => {
             >
                 <Suspense fallback={<div>Loading....</div>}>
                     <ImageSlider />
+
 
                     <div className='banner_top'>
                         <span className='b-t-h'>SAMARPAN</span>

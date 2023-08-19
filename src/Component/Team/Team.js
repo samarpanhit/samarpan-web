@@ -3,6 +3,7 @@ import Card from './Card'
 import './team.css'
 import core_member from '../../Database/Team/Core_member.json'
 
+
 const Team = () => {
     return (
         <div className='team-container'>

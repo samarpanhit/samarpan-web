@@ -38,5 +38,5 @@ Whether you have questions, ideas, or suggestions, we're eager to engage in mean
   Please give this repo a ⭐ it really helps us!
 </h3>
 <h3 align="center">
-  <strong>** Team Samarpan</strong>
+  <strong>Team Samarpan</strong>
 </h3>

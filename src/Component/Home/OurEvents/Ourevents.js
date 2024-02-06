@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { fetchEvent } from '../../../store/eventSlice'
+import Loader from '../../Loader'
 import Card from './Card'
 
 
@@ -41,7 +42,7 @@ const Ourevents = () => {
       <div className='event-content'>
         {
           !data ?
-            "Loading"
+            <Loader/>
             :
             <>
             <Card title={data[0].title} date={data[0].date} contents={data[0].contents} id={data[0].id} image={image[0]}/>

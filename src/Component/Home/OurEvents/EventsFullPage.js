@@ -5,6 +5,7 @@ import './eventfullpage.css'
 import SimpleImageSlider from "react-simple-image-slider";
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css"
+import Loader from '../../Loader'
 import { useEffect } from 'react';
 import { useState } from 'react';
 
@@ -27,7 +28,7 @@ const EventsFullPage = () => {
     <div>
     {
     !data?
-        "Loading"
+        <Loader/>
         :
         < div className='Event' >
           <ImageGallery
@@ -38,7 +39,6 @@ const EventsFullPage = () => {
             lazyLoad={true}
           />
           <div className='event-info'>
-            check
             <p className='event-date'>{data.date}</p>
             <h3 className='event-title'>{data.title}</h3>
             {/* <p className='event-data'>{data.contents}</p> */}

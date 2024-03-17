@@ -9,6 +9,31 @@
 
 .nav-item {
   padding: 0 18px;
+  color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.nav-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+   height: 4px; 
+  bottom: -2px;
+  left: 0;
+  background-color:#FFA500 ;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+.nav-item:hover {
+  color: #ff5722;
+}
+
+.nav-item:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 .nav-link {
@@ -56,11 +81,11 @@
 .b-c:hover{
   background: #bda30f;
   color: white;
-  /* transform: scaleX(1.1); */
+   transform: scaleX(1.1); 
 }
 .b-c:active{
   background: rgb(88, 0, 0);
-}
+} 
 
 @media (max-device-width: 992px) {
   .alert{

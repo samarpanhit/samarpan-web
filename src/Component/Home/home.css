@@ -133,7 +133,7 @@
 
 /* mission */
 .mission-carousel {
-    height: 80vh;
+    height: 60vh;
 }
 
 @media (max-device-width: 425px) {
@@ -144,7 +144,7 @@
 }
 
 .carousel-inner-mission {
-    height: 80vh;
+    height: 60vh;
 }
 
 .mission-text {
@@ -152,10 +152,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 60vh;
     text-align: center;
     color: #ffdd12;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background-color: #262626;
 }
 
@@ -219,7 +219,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 12vh;
+    height: 10vh;
     width: 20vw;
     margin-top: 25px;
     border: 2px solid white;

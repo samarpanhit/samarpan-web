@@ -1,15 +1,16 @@
-import React from 'react'
+// Card.js
+import React from 'react';
 
 const Card = (props) => {
-    const {name,role,id} = props
-    var temp = require('../../assets/Team/core/'+id+'.jpg')
-  return (
-      <div className='team-card'>
-          <div className='photo-holder' style={{ backgroundImage: 'url(' + temp + ')' }}></div>
-          <span className='team-role'>{role}</span>
-          <span className='team-name'>{name}</span>
-      </div>
-  )
-}
+    const { name, role, image } = props;
+console.log(image);
+    return (
+        <div className='team-card'>
+            <img src={image}/>
+            <span className='team-role'>{role}</span>
+            <span className='team-name'>{name}</span>
+        </div>
+    );
+};
 
-export default Card
+export default Card;

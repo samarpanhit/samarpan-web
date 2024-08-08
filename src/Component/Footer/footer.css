@@ -1,11 +1,13 @@
 /* footer */
 footer {
-    height: 100vh;
+    height: 78vh;
+ 
 }
 
 @media (max-device-width: 992px) {
     footer {
-        height: 100vh;
+        margin-top:2rem;
+    
     }
 }
 

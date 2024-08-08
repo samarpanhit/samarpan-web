@@ -20,6 +20,16 @@
         "role": "Student Representative"
     },
     {
+        "id": "n-22",
+        "name": "Bappy Bharti",
+        "role": "Co Student Representative"
+    },
+    {
+        "id": "n-23",
+        "name": "Yashika Kumari",
+        "role": "Co Student Representative"
+    },
+    {
         "id": "n-5",
         "name": "Aniket Kumar",
         "role": "PR & Management Lead"
@@ -61,7 +71,7 @@
     },
     {
         "id": "n-13",
-        "name": "Bhuvan Bhaskar",
+        "name": "Bhuwan Bhashkar",
         "role": "Web Development Head"
     },
     {
@@ -103,15 +113,5 @@
         "id": "n-21",
         "name": "Rifat Khan",
         "role": "Media Head"
-    },
-    {
-        "id": "n-22",
-        "name": "Bappy Bharti",
-        "role": "Co Student Representative"
-    },
-    {
-        "id": "n-23",
-        "name": "Yashika Kumari",
-        "role": "Co Student Representative"
     }
 ]

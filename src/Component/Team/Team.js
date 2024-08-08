@@ -14,7 +14,7 @@ const Team = () => {
                         name={member.name} 
                         role={member.role} 
                         id={member.id} 
-                        image={require(`../../assets/Team/core/newest/n-${i+1}.jpg`)} 
+                        image={require(`../../assets/Team/core/newest/m-${i+1}.jpg`)} 
                     />
                 ))}
             </div>

@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-import "./galery.css";
-import Gcard from "./Gcard";
-import Galery_db from "../../Database/Galery/Galery_db.json";
-
-
-const Galery = () => {
-  return (
-    <div className="galery">
-      {/* {Galery_db.map((item, i) => <Gcard index={item.id} title={item.title} sub={item.sub}/>)}           */}
-      Comming Soon..
-      
-    </div>
-  );
-};
-=======
 import React, { useState, useEffect } from 'react';
 import Gcard from './Gcard';
 import CustomImageGallery from './ImageGallery';
@@ -74,6 +57,5 @@ function Galery() {
   </div>
     );
 }
->>>>>>> 8a66f74 (Add Galley Section)
 
 export default Galery;

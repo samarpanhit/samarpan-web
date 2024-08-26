@@ -1,0 +1,85 @@
+.achievement-section {
+    padding: 15px 0;
+  }
+  
+  .achievement-card {
+    background-color: #d8cccc; 
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffeb3b; /* Success green background on hover */
+  }
+  
+  .achievement-icon {
+    font-size: 50px;
+    color: #000000; /* Black icon */
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .achievement-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000; /* Black text */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .achievement-label {
+    font-size: 1.2em;
+    color: #000000; /* Black text */
+  }
+  
+  .achievement-card:hover .achievement-icon,
+  .achievement-card:hover .achievement-number,
+  .achievement-card:hover .achievement-label {
+    color: #000000; /* Keep text and icon black on hover */
+  }
+
+  .detail-table {
+    margin-top: 30px;
+  }
+  
+  .table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f8f9fa; /* Light gray for headers */
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Light gray for odd rows */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef; /* Slightly darker gray for hover */
+  }
+  
+  .table tbody td {
+    color: #333; /* Darker text color */
+  }
+  
+  .detail-table h3 {
+    margin-bottom: 15px;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  

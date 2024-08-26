@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { ErrorBoundary } from "react-error-boundary";
 import './home.css'
 import FallbackRender from '../ErrorBoundary';
+import Achv from './Achv/Achv';
 
 // import Vision from './Vision/Vision'
 const Mission = lazy(() => import("./Mission/Mission"));
@@ -36,8 +37,9 @@ const Home = () => {
 
                     <Mission />
                     {/* <Vision bgcolor="white" /> */}
-
+                        <Achv/>
                     <Ourevents />
+
                 </Suspense>
             </ErrorBoundary>
         </div>

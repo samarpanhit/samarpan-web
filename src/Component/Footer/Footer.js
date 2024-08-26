@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import './footer.css'
+import Detail from './Detail/Detail';
 
 
 import numberOfMember from '../../Database/Team/team_members_number.json'
@@ -25,22 +26,7 @@ const Footer = () => {
 
     return (
         <footer>
-            < div className="first" >
-                {numberOfMember.map((item, i) =>
-                    <div className="first-item" key={i} >
-                        <span className='f-i-n'>
-                            <VisibilitySensor onChange={onVisibilityChange} offset={{
-                                top:
-                                    10
-                            }} delayedCall>
-                                <CountUp start={0} end={didViewCountUp ? item.numbers : 0} duration={3} />
-                            </VisibilitySensor>
-                        </span>
-                        <span>Total</span>
-                        <span>{item.title}</span>
-                    </div>
-                )}
-            </div >
+           <Detail/>
             <div className="second">
                 <div className="second-item">
                     <h1>INFO</h1>

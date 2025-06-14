@@ -1,117 +1,28 @@
 [
-    {
-        "id": "n-1",
-        "name": "Om Prakash Jha",
-        "role": "Founder & Mentor"
-    },
-    {
-        "id": "n-2",
-        "name": "Subhajit Das",
-        "role": "Advisor"
-    },
-    {
-        "id": "n-3",
-        "name": "Ashish Kishu",
-        "role": "Student Representative"
-    },
-    {
-        "id": "n-4",
-        "name": "Wasim Aktar Sha",
-        "role": "Student Representative"
-    },
-    {
-        "id": "n-22",
-        "name": "Bappy Bharti",
-        "role": "Co Student Representative"
-    },
-    {
-        "id": "n-23",
-        "name": "Yashika Kumari",
-        "role": "Co Student Representative"
-    },
-    {
-        "id": "n-5",
-        "name": "Aniket Kumar",
-        "role": "PR & Management Lead"
-    },
-    {
-        "id": "n-6",
-        "name": "Komal",
-        "role": "PR & Management Lead"
-    },
-    {
-        "id": "n-7",
-        "name": "Sayan Samanta",
-        "role": "Teaching Head"
-    },
-    {
-        "id": "n-8",
-        "name": "Spandan Manna",
-        "role": "Teaching Head"
-    },
-    {
-        "id": "n-9",
-        "name": "Amit Kar",
-        "role": "Teaching Head"
-    },
-    {
-        "id": "n-10",
-        "name": "Kumar Suman",
-        "role": "Creative Head (Cultural)"
-    },
-    {
-        "id": "n-11",
-        "name": "Anuj Updhayay",
-        "role": "Treasurer"
-    },
-    {
-        "id": "n-12",
-        "name": "Anshika Sinha",
-        "role": "Treasurer"
-    },
-    {
-        "id": "n-13",
-        "name": "Bhuwan Bhashkar",
-        "role": "Web Development Head"
-    },
-    {
-        "id": "n-14",
-        "name": "Swati Maji",
-        "role": "Cultural Head"
-    },
-    {
-        "id": "n-25",
-        "name": "Sangram Mukharjee",
-        "role": "Cultural Head"
-    },
-    {
-        "id": "n-16",
-        "name": "Harsh Shankar",
-        "role": "Volunteer Head"
-    },
-    {
-        "id": "n-17",
-        "name": "Anshika",
-        "role": "Volunteer Head"
-    },
-    {
-        "id": "n-18",
-        "name": "Mayank Kumar",
-        "role": "Volunteer Head"
-    },
-    {
-        "id": "n-19",
-        "name": "Anand Alok",
-        "role": "Mentor Head"
-    },
-    {
-        "id": "n-20",
-        "name": "Stuti Sinha",
-        "role": "Mentor Head"
-    },
-    {
-        "id": "n-21",
-        "name": "Rifat Khan",
-        "role": "Media Head"
-    }
+  { "id": "n-1", "name": "Om Prakash Jha", "role": "Founder & Mentor", "imageFormat": "jpg" },
+  { "id": "n-2", "name": "Subhajit Das", "role": "Advisor", "imageFormat": "jpeg" },
+  { "id": "n-3", "name": "Soumyadeep Taladhi", "role": "Student Representative", "imageFormat": "jpeg" },
+  { "id": "n-4", "name": "Rahul Gope", "role": "Student Representative", "imageFormat": "jpeg" },
+  { "id": "n-5", "name": "Abhishek Kumar", "role": "Co Student Representative", "imageFormat": "JPG" },
+  { "id": "n-6", "name": "Harsh Kumar", "role": "Co Student Representative", "imageFormat": "jpeg" },
+  { "id": "n-7", "name": "Oindrila Sengupta", "role": "Mentor Head", "imageFormat": "jpeg" },
+  { "id": "n-8", "name": "Prem Kumar", "role": "Mentor Head", "imageFormat": "jpeg" },
+  { "id": "n-9", "name": "Rupayan Das", "role": "Mentor Head", "imageFormat": "jpeg" },
+  { "id": "n-10", "name": "Priyajit Das", "role": "Teaching Head", "imageFormat": "jpeg" },
+  { "id": "n-11", "name": "Tithi Das", "role": "Teaching Head", "imageFormat": "jpeg" },
+  { "id": "n-12", "name": "Saikat Bhattacharya", "role": "Teaching Head", "imageFormat": "jpg" },
+  { "id": "n-13", "name": "Tamanna Parween", "role": "Volunteer Head", "imageFormat": "jpeg" },
+  { "id": "n-14", "name": "Shubham Kumar", "role": "Volunteer Head", "imageFormat": "jpeg" },
+  { "id": "n-15", "name": "Aditya Srivastava", "role": "Volunteer Head", "imageFormat": "jpeg" },
+  { "id": "n-16", "name": "Subhajit Pramanick", "role": "Treasurer", "imageFormat": "png" },
+  { "id": "n-17", "name": "Ashis Kumar", "role": "Treasurer", "imageFormat": "jpeg" },
+  { "id": "n-18", "name": "Ranit Mal", "role": "PR & Management Lead", "imageFormat": "jpeg" },
+  { "id": "n-19", "name": "Sachin Kumar", "role": "PR & Management Lead", "imageFormat": "jpeg" },
+  { "id": "n-20", "name": "Jhanvi chhajer", "role": "PR & Management Lead", "imageFormat": "jpeg" },
+  { "id": "n-21", "name": "Abheek Banerje", "role": "Media Head", "imageFormat": "jpg" },
+  { "id": "n-22", "name": "Anusrita Saha", "role": "Creative Head", "imageFormat": "jpeg" },
+  { "id": "n-23", "name": "Sushanta Pal", "role": "Web Master", "imageFormat": "jpeg" },
+  { "id": "n-24", "name": "Shreya Mitra", "role": "Cultural Head ", "imageFormat": "jpeg" },
+  { "id": "n-25", "name": "Srijani Bose", "role": "Cultural Head ", "imageFormat": "jpeg" },
+  { "id": "n-26", "name": "Alapan Das", "role": "Cultural Head ", "imageFormat": "jpg" }
 ]

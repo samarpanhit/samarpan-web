@@ -3,7 +3,7 @@ import { STATUSES } from "./status";
 
 export const fetchYear = createAsyncThunk("fetchYear/alumni", async (cred) => {
   const data = await fetch(
-    `https://script.google.com/macros/s/AKfycbzhfIVVFMOimePyW8d9ZVtYfcu3I10fR4UJLBLZtaqWuU2tlpK49ADXRJD7b8kvi1pi/exec`
+    `https://script.google.com/macros/s/AKfycbzOkDBaKF02LTmdYLn4yCZKUvlHuUOa_OB_op5Ni6aJ51eRL9o_CNNuyKpRU6eNaO-9/exec`
   );
   const result = await data.json();
   return result.data;

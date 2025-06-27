@@ -1,14 +1,17 @@
 // Card.js
 import React from 'react';
+import './Card.css';
 
-const Card = (props) => {
-    const { name, role, image } = props;
-console.log(image);
+const Card = ({ name, role, image }) => {
     return (
-        <div className='team-card'>
-            <img src={image}/>
-            <span className='team-role'>{role}</span>
-            <span className='team-name'>{name}</span>
+        <div className="team-card">
+            <div className="image-container">
+                <img src={image} alt={name} />
+            </div>
+            <div className="info">
+                <span className="team-role">{role}</span>
+                <span className="team-name">{name}</span>
+            </div>
         </div>
     );
 };

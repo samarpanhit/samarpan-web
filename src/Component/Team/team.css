@@ -1,102 +1,69 @@
 .team-container {
-    padding: 30px 0 30px 30px;
-    background: rgb(239, 239, 245);
-
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .team-container h1 {
-    text-align: center;
-    font-family: 'montserrat', sans-serif;
-    
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    color: #222;
 }
 
-@media(max-device-width:425px) {
-    .team-container h1 {
-        font-size: 8vw;
-    }
-}
-
-.team-content {
+/* First 2 cards – single row */
+.top-row-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 5vh 10vw;
-    gap: 10vw;
+    justify-content: center;
+    gap: 580px; /* Increased horizontal gap */
+    margin-bottom: 80px; /* More bottom spacing */
+    margin-top: 80px; /* More bottom spacing */
 }
 
-@media(max-device-width: 425px) {
-    .team-content {
+/* Circle section for next 4 cards */
+.circle-wrapper {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto 100px auto;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #f0f4ff 40%, #ffffff);
+    display: grid;
+    grid-template-columns: repeat(2, 250px); /* Match card width */
+    justify-content: center;
+    align-content: center;
+    gap: 60px 80px; /* Increased both row and column gap */
+    padding: 60px 40px; /* More padding inside the circle */
+    position: relative;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05); /* Optional for extra glow */
+}
+
+/* Remaining members – normal layout */
+.three-cols-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 120px 120px;
+    justify-content: center;
+}
+
+/* Responsive stack */
+@media (max-width: 768px) {
+    .top-row-wrapper,
+    .circle-wrapper,
+    .three-cols-wrapper {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
-}
 
-.team-card {
-    display: flex;
-    flex-direction: column;
-    background: white;
-    height: 58vh;
-    width: 18vw;
-    border-radius: 10px;
-    padding: 7px;
-    margin-bottom: 5vh;
-}
-
-@media (max-device-width:425px) {
-    .team-card {
-        width: calc(40vw * 1.5);
+    .circle-wrapper {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        background: none;
+        padding: 0;
+        gap: 30px;
     }
-}
 
-/* .team-card:nth-child(3n-1) {
-    margin-right: 15vw;
-    margin-left: 15vw;
-} */
-
-@media(max-device-width: 425px) {
-    .team-card:nth-child(3n-1) {
-        margin-right: 0;
-        margin-left: 0;
-    }
-}
-
-.photo-holder {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80%;
-    border-radius: 10px;
-}
-@media(max-device-width: 425px)
-{
-    .photo-holder {
-        height: 80%;
-    }
-}
-
-.team-role {
-    color: rgb(128, 128, 160);
-    font-size: 1vw;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-
-}
-
-@media(max-device-width: 425px) {
-    .team-role {
-        font-weight: 500;
-        font-size: 3.5vw;
-    }
-}
-
-.team-name {
-    font-size: 1.8vw;
-    font-weight: 600;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-@media(max-device-width: 425px) {
-    .team-name {
-        font-size: 5vw;
+    .team-container h1 {
+        font-size: 2rem;
     }
 }

@@ -65,7 +65,8 @@ const Footer = () => {
                     <h1>Contact Us</h1>
                     <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+916297604029'> Soumyadeep Taladhi: +91-6297604029</a></p>
                     <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+919973669992'> Rahul Gope: +91-9973669992</a></p>
-                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+917462875501'> Abhishek Kumar: +91-7462875501</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+917462875501'> kumar Abhishek : +91-7462875501</a></p>
+                    <p><i className="fa-solid fa-phone fa-customise"></i><a href='tel:+917856060388'> Harsh kumar : +91-7856060388</a></p>
                     <p><i className="fa-solid fa-envelope fa-customise"></i> <a href='mailto:hithaldia.samarpan@gmail.com'>hithaldia.samarpan@gmail.com</a></p>
                 </div>
 

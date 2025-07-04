@@ -3,8 +3,8 @@ import { STATUSES } from "./status";
 
 export const fetchYear = createAsyncThunk("fetchYear/alumni", async (cred) => {
   const data = await fetch(
-    `https://script.google.com/macros/s/AKfycbzOkDBaKF02LTmdYLn4yCZKUvlHuUOa_OB_op5Ni6aJ51eRL9o_CNNuyKpRU6eNaO-9/exec`
-  );
+    `https://script.google.com/macros/s/AKfycby209Fs5VDGKfokdoXFBUm1PwqtZ4BmihGF3VsSGQqGYWQPQQZn-PSZjaNXD3S2HZ3i/exec`
+    );
   const result = await data.json();
   return result.data;
 });

@@ -17,7 +17,7 @@ This repository contains the source code and Assets of our organization's websit
 Samarpan is an organization that believes in the transformative power of education. Education not only enables individuals to secure their livelihoods but also enhances their awareness about various issues, social behavior. Samarpan seeks to provide educational opportunities to underprivileged children, helping them build a brighter future.
 
 
-## Tech Stack ♨️
+## TECH Stack ♨️
 
 The Samarpan website is developed using the following technology:
 
